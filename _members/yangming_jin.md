@@ -1,11 +1,11 @@
 ---
-name: 李奕飞
+name: 金旸明
 image: 
 role: postgraduate
-description: 
+description: 对抗
 affiliation: 华中科技大学
 aliases:
-  - Yifei Li
+  - Yangming Jin
 links:
   home-page: 
   orcid: 

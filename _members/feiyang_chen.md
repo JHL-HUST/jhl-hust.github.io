@@ -1,11 +1,11 @@
 ---
-name: 李奕飞
+name: 陈飞扬
 image: 
 role: postgraduate
-description: 
+description: CV
 affiliation: 华中科技大学
 aliases:
-  - Yifei Li
+  - Feiyang Chen
 links:
   home-page: 
   orcid: 
