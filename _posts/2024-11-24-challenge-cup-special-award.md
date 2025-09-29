@@ -26,3 +26,7 @@ last_modified_at: ""
 <div align="center">
   <img src="/images/posts/2024-11-24-challenge-cup-special-award/image_4.png" style="max-width: 600px; width: 100%; height: auto;">
 </div>
+
+<div align="center">
+  <img src="/images/posts/2024-11-24-challenge-cup-special-award/image_5.png" style="max-width: 600px; width: 100%; height: auto;">
+</div>
