@@ -1,15 +1,15 @@
 ---
 title: 中心3位同学李晨阳、曹瀚文、路浩博荣获2025年度研究生国家奖学金
-image: /images/posts/2025-09-29-national-scholarship-winners/image_1.jpg
+image: images/posts/cover.png
 tags: 新闻
 last_modified_at: ""
 ---
 
 金秋送爽，硕果盈枝。近日，2025年度研究生国家奖学金获奖名单公布，华中科大Hopcroft计算科学研究中心三位同学李晨阳、曹瀚文、路浩博凭借其卓越的学术科研成果和优异的综合表现，荣获此项国家级荣誉。这不仅是他们个人汗水与智慧的结晶，更是中心拔尖创新人才培养实力的集中展现。
 
-<div align="center">
+<!-- <div align="center">
   <img src="/images/posts/2025-09-29-national-scholarship-winners/image_1.jpg" style="max-width: 600px; width: 100%; height: auto;">
-</div>
+</div> -->
 
 ## 李晨阳 2023级硕士研究生
 
