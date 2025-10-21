@@ -2,7 +2,7 @@
 name: 张晓今
 image: images/members/researchers/xiaojin_zhang.png
 role: researchers
-description: 
+description: 助理教授
 affiliation: 华中科技大学
 aliases:
   - Xiaojin Zhang

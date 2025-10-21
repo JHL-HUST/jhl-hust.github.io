@@ -2,7 +2,7 @@
 name: 马志远
 image: images/members/researchers/zhiyuan_ma.jpg
 role: researchers
-description: 
+description: 助理教授
 affiliation: 华中科技大学
 aliases:
   - Zhiyuan Ma

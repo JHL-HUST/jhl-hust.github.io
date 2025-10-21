@@ -2,8 +2,8 @@
 name: 刘铁岩
 image: images/members/vp/tieyan_liu.png
 role: vp
-description: 北京中关村学院党委书记、院长
-affiliation: 北京中关村学院
+description: 客座教授
+affiliation: 北京中关村学院<br>党委书记、院长
 # links:
 ---
 

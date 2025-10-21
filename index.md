@@ -74,7 +74,7 @@
 
 {%
   include feature.html
-  image="images/members/team_photos/team_photo_1.jpg"
+  image="images/members/team_photos/team_photo_2025_10_09_thumbnail.jpg"
   link="team"
   title="人才队伍"
   text=text
