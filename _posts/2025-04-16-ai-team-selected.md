@@ -1,6 +1,6 @@
 ---
 title: AI派本科生团队入选全校示范性学生创新团队
-image: /images/posts/cover.png
+image: /images/posts/cover.webp
 tags: 新闻
 last_modified_at: ""
 ---

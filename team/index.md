@@ -52,7 +52,7 @@ nav:
 {% include figure.html image="images/members/team_photos/team_photo_1.png" %}
 {% include figure.html image="images/members/team_photos/team_photo_2.png" %}
 <!-- {% include figure.html image="images/members/team_photos/team_photo_3.png" %} -->
-{% include figure.html image="images/members/team_photos/team_photo_2025_10_09_thumbnail.jpg" %}
+{% include figure.html image="images/members/team_photos/team_photo_2025_10_09.jpg" %}
 
 {% endcapture %}
 

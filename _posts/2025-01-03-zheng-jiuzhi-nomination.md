@@ -1,6 +1,6 @@
 ---
 title: 中心20级博士生郑迥之博士论文获2024年"CCF理论计算机科学博士学位论文激励计划"提名
-image: /images/posts/cover.png
+image: /images/posts/cover.webp
 tags: 新闻
 last_modified_at: ""
 ---

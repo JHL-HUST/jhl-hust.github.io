@@ -1,6 +1,6 @@
 ---
 title: 中心3位同学李晨阳、曹瀚文、路浩博荣获2025年度研究生国家奖学金
-image: images/posts/cover.png
+image: images/posts/cover.webp
 tags: 新闻
 last_modified_at: ""
 ---
