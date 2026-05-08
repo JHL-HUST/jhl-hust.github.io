@@ -69,10 +69,14 @@
   file: orcid.yaml
 - id: doi:10.1109/TETCI.2026.3683659
   title: Feedback-Based Modal Mutual Search for Enhanced Adversarial Attacks on Vision-Language
-    Pre-Training Models | IEEE Journals & Magazine | IEEE Xplore
-  authors: []
-  publisher: ''
-  date: ''
+    Pre-Training Models
+  authors:
+  - Renhua Ding
+  - Xinze Zhang
+  - Xiao Yang
+  - Kun He
+  publisher: IEEE Transactions on Emerging Topics in Computational Intelligence
+  date: '2026-01-01'
   link: https://doi.org/hb2b74
   orcid: 0000-0001-7627-4604
   plugin: orcid.py
