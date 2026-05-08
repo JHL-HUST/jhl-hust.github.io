@@ -1,5 +1,17 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1109/TCSVT.2025.3576793
+  title: Intra-task Mutual Attention based Vision Transformer for Few-Shot Learning
+  authors:
+  - Weihao Jiang
+  - Chang Liu
+  - Kun He
+  publisher: IEEE Transactions on Circuits and Systems for Video Technology
+  date: '2025-01-01'
+  link: https://doi.org/g94jkg
+  orcid: 0000-0001-7627-4604
+  plugin: sources.py
+  file: sources.yaml
 - id: doi:10.1016/j.dam.2025.05.039
   title: Online and offline packing cylinders in a cylindrical container
   authors:
@@ -181,18 +193,6 @@
   publisher: IEEE Transactions on Emerging Topics in Computational Intelligence
   date: '2025-04-01'
   link: https://doi.org/g94jkf
-  orcid: 0000-0001-7627-4604
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1109/TCSVT.2025.3576793
-  title: Intra-task Mutual Attention based Vision Transformer for Few-Shot Learning
-  authors:
-  - Weihao Jiang
-  - Chang Liu
-  - Kun He
-  publisher: IEEE Transactions on Circuits and Systems for Video Technology
-  date: '2025-01-01'
-  link: https://doi.org/g94jkg
   orcid: 0000-0001-7627-4604
   plugin: sources.py
   file: sources.yaml
