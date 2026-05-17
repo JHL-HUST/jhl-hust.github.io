@@ -2,7 +2,7 @@
 name: ​项翔
 image: /images/members/researchers/xiang_xiang.png
 role: researchers
-description: 博导 副教授
+description: 教授
 affiliation: 华中科技大学
 links:
   home-page: https://eglxiang.github.io
