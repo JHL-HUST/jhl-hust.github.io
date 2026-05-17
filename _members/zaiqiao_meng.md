@@ -2,7 +2,7 @@
 name: 蒙在桥
 image: images/members/researchers/zaiqiao_meng.png
 role: researchers
-description: 教授，国家优青（海外）
+description: 教授
 affiliation: 华中科技大学
 aliases:
   - Zaiqiao Meng
