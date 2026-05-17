@@ -2,7 +2,7 @@
 name: 黄柯柯
 image: images/members/researchers/keke_huang.png
 role: researchers
-description: 教授，国家级青年人才
+description: 教授
 affiliation: 华中科技大学
 aliases:
   - Keke Huang
