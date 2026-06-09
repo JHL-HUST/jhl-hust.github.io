@@ -1,5 +1,17 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1016/j.imavis.2026.106031
+  title: Class-relevant patch embedding selection for few-shot image classification
+  authors:
+  - Weihao Jiang
+  - Haoyang Cui
+  - Kun He
+  publisher: Image and Vision Computing
+  date: '2026-08-01'
+  link: https://doi.org/hb5f33
+  orcid: 0000-0001-7627-4604
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1145/3794847
   title: Tokenized Heterogeneous Graph Transformer with Enhanced Local and Global
     Representation Learning
