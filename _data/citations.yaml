@@ -1,5 +1,47 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1016/j.neucom.2026.134797
+  title: Feature adaptive enhancement transformer for few-shot image classification
+  authors:
+  - Weihao Jiang
+  - Jia Ning
+  - Kun He
+  publisher: Neurocomputing
+  date: '2026-12-01'
+  link: https://doi.org/hcfwjp
+  orcid: 0000-0001-7627-4604
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1109/TBDATA.2026.3702390
+  title: Global-Local Contrastive Graph Transformer for Node Classification
+  authors:
+  - Gaichao Li
+  - Jinsong Chen
+  - Kun He
+  publisher: IEEE Transactions on Big Data
+  date: '2026-10-01'
+  link: https://doi.org/hchttv
+  orcid: 0000-0001-7627-4604
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1145/3770854.3780301
+  title: Tokenizing 3D Molecule Structure with Quantized Spherical Coordinates
+  authors:
+  - Kaiyuan Gao
+  - Yusong Wang
+  - Haoxiang Guan
+  - Zun Wang
+  - Qizhi Pei
+  - John Hopcroft
+  - Kun He
+  - Lijun Wu
+  publisher: Proceedings of the 32nd ACM SIGKDD Conference on Knowledge Discovery
+    and Data Mining V.1
+  date: '2026-04-20'
+  link: https://doi.org/hcdb2f
+  orcid: 0000-0001-7627-4604
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1016/j.imavis.2026.106031
   title: Class-relevant patch embedding selection for few-shot image classification
   authors:
@@ -88,8 +130,23 @@
   - Xiao Yang
   - Kun He
   publisher: IEEE Transactions on Emerging Topics in Computational Intelligence
-  date: '2026-01-01'
+  date: '2026-08-01'
   link: https://doi.org/hb2b74
+  orcid: 0000-0001-7627-4604
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1109/TETCI.2026.3699632
+  title: Semantic Preservation Based Momentum Enhancement Adversarial Attack for SAR
+    Target Recognition
+  authors:
+  - Renhua Ding
+  - Aoyang Zhou
+  - Xin Liu
+  - Wei Wang
+  - Kun He
+  publisher: IEEE Transactions on Emerging Topics in Computational Intelligence
+  date: '2026-01-01'
+  link: https://doi.org/hb8cb6
   orcid: 0000-0001-7627-4604
   plugin: orcid.py
   file: orcid.yaml
@@ -677,6 +734,19 @@
   orcid: 0000-0001-7627-4604
   plugin: sources.py
   file: sources.yaml
+- id: doi:10.2139/ssrn.4276235
+  title: A Reinforced Hybrid Genetic Algorithm for the Traveling Salesman Problem
+  authors:
+  - Jiongzhi Zheng
+  - Jialun Zhong
+  - Menglei Chen
+  - Kun He
+  publisher: Elsevier BV
+  date: '2022-01-01'
+  link: https://doi.org/hcfwjq
+  orcid: 0000-0001-7627-4604
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1109/TCSS.2020.3008860
   title: Sparse Nonnegative Matrix Factorization for Multiple-Local-Community Detection
   authors:

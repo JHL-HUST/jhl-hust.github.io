@@ -1,11 +1,12 @@
 ---
-name: 龚宇蒙
+name: 汪萌
 image: 
-role: postgraduate
+role: phd
+status: graduated
 description: 
 affiliation: 华中科技大学
 aliases:
-  - Yumeng Gong
+  - Meng Wang
 links:
   home-page: 
   orcid: 

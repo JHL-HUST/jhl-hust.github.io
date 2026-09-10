@@ -1,11 +1,12 @@
 ---
-name: 贺继尧
+name: 高开元
 image: 
-role: postgraduate
+role: phd
+status: graduated
 description: 
 affiliation: 华中科技大学
 aliases:
-  - Jiyao He
+  - Kaiyuan Gao
 links:
   home-page: 
   orcid: 

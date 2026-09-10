@@ -13,30 +13,30 @@ nav:
 
 # {% include icon.html icon="fa-regular fa-user" %}中心主任
 
-{% include list.html data="members" component="portrait" filter="role == 'principal-investigator'" %}
+{% include list.html data="members" component="portrait" filter="role == 'principal-investigator' && status != 'graduated'" %}
 
 # {% include icon.html icon="fa-regular fa-user" %}教学科研人员
 
-{% include list.html data="members" component="portrait" filter="role == 'researchers'" %}
+{% include list.html data="members" component="portrait" filter="role == 'researchers' && status != 'graduated'" %}
 
 # {% include icon.html icon="fa-regular fa-user" %}客座教授
 
-{% include list.html data="members" component="portrait" filter="role == 'vp'" %}
+{% include list.html data="members" component="portrait" filter="role == 'vp' && status != 'graduated'" %}
 
 # {% include icon.html icon="fa-regular fa-user" %}博士后
 
-{% include list.html data="members" component="portrait" filter="role == 'postdoc'" %}
+{% include list.html data="members" component="portrait" filter="role == 'postdoc' && status != 'graduated'" %}
 
 # {% include icon.html icon="fa-regular fa-user" %}博士生
 
-{% include list.html data="members" component="portrait" filter="role == 'phd'" %}
+{% include list.html data="members" component="portrait" filter="role == 'phd' && status != 'graduated'" %}
 
 # {% include icon.html icon="fa-regular fa-user" %}硕士生
 
-{% include list.html data="members" component="portrait" filter="role == 'postgraduate'" %}
+{% include list.html data="members" component="portrait" filter="role == 'postgraduate' && status != 'graduated'" %}
 
 # {% include icon.html icon="fa-regular fa-user" %}本科生团队
-{% include list.html data="members" component="portrait" filter="role == 'undergrad'" %}
+{% include list.html data="members" component="portrait" filter="role == 'undergrad' && status != 'graduated'" %}
 
 
 {% include section.html background="images/background.png" dark=true %}

@@ -1,11 +1,12 @@
 ---
-name: 江魏好
+name: 曹瀚文
 image: 
-role: phd
+role: postgraduate
+status: graduated
 description: 
 affiliation: 华中科技大学
 aliases:
-  - Weihao Jiang
+  - Hanwen Cao
 links:
   home-page: 
   orcid: 

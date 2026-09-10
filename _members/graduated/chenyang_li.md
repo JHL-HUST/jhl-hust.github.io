@@ -2,6 +2,7 @@
 name: 李晨阳
 image: 
 role: postgraduate
+status: graduated
 description: 
 affiliation: 华中科技大学
 aliases:

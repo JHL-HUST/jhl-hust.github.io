@@ -1,11 +1,12 @@
 ---
-name: 周奥洋
+name: 姜伟龙
 image: 
 role: postgraduate
+status: graduated
 description: 
 affiliation: 华中科技大学
 aliases:
-  - Aoyang Zhou
+  - Weilong Jiang
 links:
   home-page: 
   orcid: 

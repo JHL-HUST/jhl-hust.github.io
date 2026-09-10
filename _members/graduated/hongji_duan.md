@@ -1,11 +1,12 @@
 ---
-name: 曹瀚文
+name: 段泓汲
 image: 
 role: postgraduate
+status: graduated
 description: 
 affiliation: 华中科技大学
 aliases:
-  - Hanwen Cao
+  - Hongji Duan
 links:
   home-page: 
   orcid: 

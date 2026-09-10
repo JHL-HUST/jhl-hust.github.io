@@ -1,11 +1,12 @@
 ---
-name: 汪萌
+name: 伍仁杰
 image: 
-role: phd
+role: postgraduate
+status: graduated
 description: 
 affiliation: 华中科技大学
 aliases:
-  - Meng Wang
+  - Renjie Wu
 links:
   home-page: 
   orcid: 

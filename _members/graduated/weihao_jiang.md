@@ -1,11 +1,12 @@
 ---
-name: 高开元
+name: 江魏好
 image: 
 role: phd
+status: graduated
 description: 
 affiliation: 华中科技大学
 aliases:
-  - Kaiyuan Gao
+  - Weihao Jiang
 links:
   home-page: 
   orcid: 
