@@ -3,6 +3,7 @@ name: 宋子剑
 image: 
 role: postgraduate
 description: CV
+research_direction: CV
 affiliation: 华中科技大学
 aliases:
   - Zijian Song

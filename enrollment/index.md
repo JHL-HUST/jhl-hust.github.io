@@ -1,8 +1,9 @@
 ---
 title: 中心招生
+description: 了解 Hopcroft 计算科学研究中心各导师研究方向、招生要求、联系方式与申请方式。
 nav:
   order: 4
-  tooltip: Student Enrollment
+  tooltip: 招生与申请
 ---
 
 # {% include icon.html icon="fa-solid fa-user-graduate" %}华中科技大学Hopcroft计算科学研究中心学生招生信息
@@ -15,7 +16,7 @@ nav:
   - [何琨老师](#何琨老师)
   - [张晓今老师](#张晓今老师)
   - [马志远老师](#马志远老师)
- - [如何申请](#如何申请)
+- [如何申请](#如何申请)
 
 ## 中心简介
 
@@ -101,3 +102,11 @@ nav:
 - **邮箱：** mzyth@hust.edu.cn
 - **联系电话（微信）：** 18154402445
 - **个人主页：** [http://faculty.hust.edu.cn/MAZHIYUAN/zh_CN/index.htm](http://faculty.hust.edu.cn/MAZHIYUAN/zh_CN/index.htm)
+
+## 如何申请
+
+1. **选择研究方向与导师。** 阅读上方导师介绍，结合自己的研究兴趣和经历，联系相应导师咨询当前招生或实习机会。
+2. **通过邮件介绍自己。** 建议在邮件主题中注明“申请类别 + 姓名 + 研究方向”，例如“硕士申请 + 姓名 + 可信机器学习”。邮件中可附上个人简历，并简要说明研究兴趣、学习或科研经历；如有论文、项目或代码，也可提供相关链接。
+3. **确认后续安排。** 材料要求、交流安排与具体名额以导师回复及学校、学院发布的正式通知为准。邮件咨询不替代学校规定的报名及考核流程。
+
+导师邮箱：何琨老师 [brooklet60@hust.edu.cn](mailto:brooklet60@hust.edu.cn)、张晓今老师 [xiaojinzhang@hust.edu.cn](mailto:xiaojinzhang@hust.edu.cn)、马志远老师 [mzyth@hust.edu.cn](mailto:mzyth@hust.edu.cn)。

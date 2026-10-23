@@ -3,6 +3,7 @@ name: 尹冠乔
 image:
 role: postgraduate
 description: CS2206 · 企业联培 · GT
+research_direction: GT
 affiliation: 华中科技大学
 aliases:
   - Guanqiao Yin

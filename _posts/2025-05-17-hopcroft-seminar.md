@@ -8,7 +8,7 @@ last_modified_at: ""
 <!-- excerpt start -->5月17日下午，由华中科技大学霍普克罗夫特计算科学研究中心主办的"大师面对面"师生座谈会在一号楼顺利召开。<!-- excerpt end -->图灵奖得主、康奈尔大学教授、华中科技大学名誉教授、霍普克罗夫特中心主任John Hopcroft出席活动，并与中心研究生、AI派团队成员、ACM集训队成员以及计算机学院图灵班学生代表进行了面对面的深入交流。座谈会由霍普克罗夫特中心执行主任何琨教授主持。
 
 <div align="center">
-  <img src="/images/posts/2025-05-17-hopcroft-seminar/image_1.png" alt="座谈会现场" style="max-width: 600px; width: 100%; height: auto;">
+  <img src="{{ '/images/posts/2025-05-17-hopcroft-seminar/image_1.png' | relative_url }}" alt="座谈会现场" style="max-width: 600px; width: 100%; height: auto;">
 </div>
 
 座谈会上，Hopcroft教授以"Do what you enjoy"（做你感兴趣的事情）为主题发表演讲。他结合自身的学术经历，分享了在科研道路上坚持兴趣驱动、追求内在满足的理念。他回忆到，自己最初提出的以渐近复杂度来分析算法性能的概念时，并未得到主流学界认可，甚至被认为毫无价值。然而，数年以后，这一研究方向不仅得到广泛关注，还开创了算法分析的新纪元，他也因在算法设计分析方面的开创性研究而获得了图灵奖。他鼓励同学们不要被一时的评价所左右，要坚持长期思考与热爱所驱动的探索；重大发现往往源于好奇心，而非刻意追求成果的研究，以兴趣驱动的工作非常重要。
@@ -18,7 +18,7 @@ last_modified_at: ""
 在谈到高校教师的工作压力时，Hopcroft教授也分享了自己的看法。他提到，近年来不少教师向他反映日常事务繁多、科研压力沉重。对此，他认为，高校教师的核心职责应回归教学本质，而不应过度关注项目经费或论文数量。他以自己在上海交通大学创办研究中心的经验为例，该中心在原校长的支持下获得制度试点权限，破除传统以论文与经费为导向的评价体系，转而强调教师对教学的热爱与对学术的好奇心。经过几年的发展，该中心已成为当前国内理论计算机科学排名第一的机构。说明这种以兴趣和责任驱动的机制有效激发了教师的创造力与教学质量，也成为中心发展的关键推动力。
 
 <div align="center">
-  <img src="/images/posts/2025-05-17-hopcroft-seminar/image_2.png" alt="座谈会现场" style="max-width: 600px; width: 100%; height: auto;">
+  <img src="{{ '/images/posts/2025-05-17-hopcroft-seminar/image_2.png' | relative_url }}" alt="座谈会现场" style="max-width: 600px; width: 100%; height: auto;">
 </div>
 
 在随后的学生提问环节中，学生代表们围绕学术选择、科研方法与职业发展等话题积极发问，Hopcroft教授也逐一进行了细致耐心的解答。
@@ -32,7 +32,7 @@ last_modified_at: ""
 经过一个下午的深入交流，同学们纷纷表示受益匪浅，不仅拓宽了视野，更受到精神上的启发。他们表示将铭记John Hopcroft教授的谆谆教诲，在今后的学习与人生道路上坚持兴趣驱动，注重能力培养，勇于探索属于自己的发展方向。会后，师生们合影留念，记录下这场难忘的思想盛宴。
 
 <div align="center">
-  <img src="/images/posts/2025-05-17-hopcroft-seminar/image_3.png" alt="师生合影" style="max-width: 600px; width: 100%; height: auto;">
+  <img src="{{ '/images/posts/2025-05-17-hopcroft-seminar/image_3.png' | relative_url }}" alt="师生合影" style="max-width: 600px; width: 100%; height: auto;">
 </div>
 
 本次"大师面对面"座谈会不仅为同学们提供了与世界顶尖学术大师和教育家直接交流的宝贵机会，也展现了霍普克罗夫特中心在推动人才培养、营造开放学术氛围方面的积极探索。

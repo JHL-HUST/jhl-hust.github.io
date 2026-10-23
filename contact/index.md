@@ -2,7 +2,7 @@
 title: 联系我们
 nav:
   order: 6
-  tooltip: Email, address, and location
+  tooltip: 联系我们
 ---
 
 # {% include icon.html icon="fa-regular fa-envelope" %}联系我们

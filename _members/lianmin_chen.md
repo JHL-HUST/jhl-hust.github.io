@@ -1,6 +1,6 @@
 ---
 name: 陈联民
-image: images/members/phd/lianmin_chen.png
+image: images/members/phd/lianmin_chen.webp
 role: phd
 description: PhD Student
 affiliation: 华中科技大学

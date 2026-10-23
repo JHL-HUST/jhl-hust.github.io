@@ -3,6 +3,7 @@ name: 白宇
 image:
 role: postgraduate
 description: SSE-2201 · CV
+research_direction: CV
 affiliation: 华中科技大学
 aliases:
   - Yu Bai

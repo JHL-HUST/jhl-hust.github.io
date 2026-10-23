@@ -8,7 +8,7 @@ last_modified_at: ""
 4月16日，2025年华中科技大学示范性学生创新团队答辩会在启明学院亮胜楼圆满举行。经过激烈角逐和专家严格评审，由<!-- excerpt start -->中心副主任何琨教授指导的AI派团队从众多参赛队伍中脱颖而出，成功入选本年度全校22支示范性学生创新团队。<!-- excerpt end -->这也是自2018年ACM集训队以来，第二支由何琨教授指导入选的本科生团队。
 
 <div align="center">
-  <img src="/images/posts/2025-04-16-ai-team-selected/image_1.png" style="max-width: 600px; width: 100%; height: auto;">
+  <img src="{{ '/images/posts/2025-04-16-ai-team-selected/image_1.png' | relative_url }}" style="max-width: 600px; width: 100%; height: auto;">
 </div>
 
 作为一支深耕人工智能领域的创新团队，AI派在何琨教授的悉心指导下，始终致力于人工智能前沿技术的探索与实践。团队聚焦机器学习、计算机视觉、自然语言处理等核心方向，同时积极拓展智能机器人、AI交叉应用等新兴领域。通过参与Kaggle、RoboMaster等国际顶级赛事，与华为、腾讯等行业领军企业开展深度合作，团队在学术科研和工程实践方面取得了丰硕成果，在ACL（Oral）等发表多篇顶会论文，并开发了多个具有影响力的开源项目。

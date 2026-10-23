@@ -4,7 +4,7 @@
 $logo-big: 80px;
 $logo: 40px;
 $big-padding: 100px;
-$collapse: 700px;
+$collapse: 1100px;
 $sticky: true;
 
 header {
@@ -36,10 +36,12 @@ header a {
   flex-basis: 0;
   flex-grow: 1;
   max-width: 100%;
+  min-width: 0;
 }
 
 .logo {
   height: $logo;
+  flex-shrink: 0;
 }
 
 .logo > * {
@@ -56,6 +58,7 @@ header a {
   min-width: 0;
   font-family: var(--title);
   text-align: left;
+  overflow-wrap: anywhere;
 }
 
 .title {
@@ -118,6 +121,7 @@ header:not([data-big]) {
 
     .nav-toggle {
       display: flex;
+      flex-shrink: 0;
     }
 
     .nav-toggle:not(:checked) + nav {
@@ -164,5 +168,20 @@ header[data-big] {
 
   .subtitle {
     font-size: var(--large);
+  }
+}
+
+@media (max-width: 600px) {
+  header {
+    gap: 12px;
+    padding: 16px;
+  }
+
+  header:not([data-big]) .subtitle {
+    display: none;
+  }
+
+  header[data-big] {
+    padding: 40px 20px;
   }
 }

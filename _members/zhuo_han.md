@@ -3,6 +3,7 @@ name: 韩卓
 image:
 role: postgraduate
 description: CS2202 · AI安全
+research_direction: AI安全
 affiliation: 华中科技大学
 aliases:
   - Zhuo Han

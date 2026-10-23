@@ -68,6 +68,8 @@ include:
 
 # force jekyll to exclude certain files/folders
 exclude:
+  - docs
+  - tests
   - README.md
   - LICENSE.md
   - CITATION.cff

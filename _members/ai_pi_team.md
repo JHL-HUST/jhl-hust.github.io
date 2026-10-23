@@ -7,7 +7,7 @@ affiliation: 华中科技大学
 links:
   home-page: https://github.com/HUST-AIpi
 ---
-# 华中科技大学AI派团队
+## 华中科技大学AI派团队
 
 ### **团队简介**
 

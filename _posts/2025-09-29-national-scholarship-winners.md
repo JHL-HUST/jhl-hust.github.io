@@ -8,7 +8,7 @@ last_modified_at: ""
 金秋送爽，硕果盈枝。近日，2025年度研究生国家奖学金获奖名单公布，华中科大Hopcroft计算科学研究中心三位同学李晨阳、曹瀚文、路浩博凭借其卓越的学术科研成果和优异的综合表现，荣获此项国家级荣誉。这不仅是他们个人汗水与智慧的结晶，更是中心拔尖创新人才培养实力的集中展现。
 
 <!-- <div align="center">
-  <img src="/images/posts/2025-09-29-national-scholarship-winners/image_1.jpg" style="max-width: 600px; width: 100%; height: auto;">
+  <img src="{{ '/images/posts/2025-09-29-national-scholarship-winners/image_1.jpg' | relative_url }}" style="max-width: 600px; width: 100%; height: auto;">
 </div> -->
 
 ## 李晨阳 2023级硕士研究生
@@ -30,7 +30,7 @@ last_modified_at: ""
 此外，完整的rebuttal也极具价值，对提升科研水平帮助很大。这既是点对点解答审稿人疑惑的过程，也是对论文深度交流和讨论的机会。多思考、多讨论、多尝试、多复盘，属于你的创新灵感终会如期而至。
 
 <div align="center">
-  <img src="/images/posts/2025-09-29-national-scholarship-winners/image_2.png" alt="李晨阳同学" style="max-width: 300px; width: 100%; height: auto;">
+  <img src="{{ '/images/posts/2025-09-29-national-scholarship-winners/image_2.png' | relative_url }}" alt="李晨阳同学" style="max-width: 300px; width: 100%; height: auto;">
 </div>
 
 ## 曹瀚文 2023级硕士研究生
@@ -56,7 +56,7 @@ last_modified_at: ""
 **寄语：** 别让忙科研、工作等"正事"过程中可能遇到的压力影响自己的情绪和生活状态，要保持活力，轻装上阵，快乐前行。
 
 <div align="center">
-  <img src="/images/posts/2025-09-29-national-scholarship-winners/image_3.png" alt="曹瀚文同学" style="max-width: 300px; width: 100%; height: auto;">
+  <img src="{{ '/images/posts/2025-09-29-national-scholarship-winners/image_3.png' | relative_url }}" alt="曹瀚文同学" style="max-width: 300px; width: 100%; height: auto;">
 </div>
 
 ## 路浩博 2023级硕士研究生，2025级博士研究生（硕博连读）
@@ -75,7 +75,7 @@ last_modified_at: ""
 两年的科研经历，让我真正明白了高中时作文中常写的那句"但行好事，莫问前程"。有很长一段时间，我也面临着屡投不中的困境，所幸在过程中有导师的指导、师兄的帮助，我逐渐学习了如何更好的阐释论文的研究动机，如何在rebuttal中有效回应审稿人的疑问。未来，我也将继续努力做有趣的研究。
 
 <div align="center">
-  <img src="/images/posts/2025-09-29-national-scholarship-winners/image_4.png" alt="路浩博同学" style="max-width: 300px; width: 100%; height: auto;">
+  <img src="{{ '/images/posts/2025-09-29-national-scholarship-winners/image_4.png' | relative_url }}" alt="路浩博同学" style="max-width: 300px; width: 100%; height: auto;">
 </div>
 
 ## 结语

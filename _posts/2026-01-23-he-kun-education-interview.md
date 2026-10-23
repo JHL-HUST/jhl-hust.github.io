@@ -16,13 +16,13 @@ last_modified_at: ""
 > 👉 完整访谈视频可通过[华中科技大学工会官方平台](https://mp.weixin.qq.com/s/xlEtwEWdwq8usThRrz0eIQ)观看。
 
 <div align="center">
-  <img src="/images/posts/2026-01-23-he-kun-education-interview/1.png" alt="何琨教授访谈" style="max-width: 600px; width: 100%; height: auto;">
+  <img src="{{ '/images/posts/2026-01-23-he-kun-education-interview/1.png' | relative_url }}" alt="何琨教授访谈" style="max-width: 600px; width: 100%; height: auto;">
 </div>
 
 ## 以板书为媒，让思维生长
 
 <div align="center">
-  <img src="/images/posts/2026-01-23-he-kun-education-interview/2.jpg" alt="课堂板书" style="max-width: 600px; width: 100%; height: auto;">
+  <img src="{{ '/images/posts/2026-01-23-he-kun-education-interview/2.jpg' | relative_url }}" alt="课堂板书" style="max-width: 600px; width: 100%; height: auto;">
 </div>
 
 在很多学生的记忆里，何琨老师的课堂，总是从一块「不断生长」的板书开始。当被问及为何在 PPT 高度普及的今天，依然坚持手写板书时，何琨给出了一个出人意料、却极具说服力的答案：
@@ -60,7 +60,7 @@ last_modified_at: ""
 走进何琨老师的办公室，常常能看到学生进进出出。她的办公室，几乎全年无休对学生开放。在她看来，教育的对象，从来不是「抽象的学生」，而是一个个具体而完整的人。
 
 <div align="center">
-  <img src="/images/posts/2026-01-23-he-kun-education-interview/3.jpg" alt="师生交流" style="max-width: 600px; width: 100%; height: auto;">
+  <img src="{{ '/images/posts/2026-01-23-he-kun-education-interview/3.jpg' | relative_url }}" alt="师生交流" style="max-width: 600px; width: 100%; height: auto;">
 </div>
 
 因此，学生们不仅会和她讨论科研问题，也会谈及情感困惑、家庭牵绊、就业选择、对未来的迷茫。
@@ -72,13 +72,13 @@ last_modified_at: ""
 在她看来，真正有温度的教育，往往始于心灵的靠近。知识的传递固然重要，但精神的唤醒与人格的养成，才是教育的长远之道。
 
 <div align="center">
-  <img src="/images/posts/2026-01-23-he-kun-education-interview/4.jpg" alt="师生交流" style="max-width: 600px; width: 100%; height: auto;">
+  <img src="{{ '/images/posts/2026-01-23-he-kun-education-interview/4.jpg' | relative_url }}" alt="师生交流" style="max-width: 600px; width: 100%; height: auto;">
 </div>
 
 ## 协同推进，教学科研互促
 
 <div align="center">
-  <img src="/images/posts/2026-01-23-he-kun-education-interview/5.jpg" alt="教学与科研" style="max-width: 600px; width: 100%; height: auto;">
+  <img src="{{ '/images/posts/2026-01-23-he-kun-education-interview/5.jpg' | relative_url }}" alt="教学与科研" style="max-width: 600px; width: 100%; height: auto;">
 </div>
 
 
@@ -96,14 +96,14 @@ last_modified_at: ""
 学生的活力与好奇，为航行注入动力；教师的经验与判断，则帮助辨识方向、规避风险。正是这种协作、启发、共生的关系，让教学与科研形成了良性循环。
 
 <div align="center">
-  <img src="/images/posts/2026-01-23-he-kun-education-interview/6.jpg" alt="团队协作" style="max-width: 600px; width: 100%; height: auto;">
+  <img src="{{ '/images/posts/2026-01-23-he-kun-education-interview/6.jpg' | relative_url }}" alt="团队协作" style="max-width: 600px; width: 100%; height: auto;">
 </div>
 
 
 ## 躬身示范，彰显责任担当
 
 <div align="center">
-  <img src="/images/posts/2026-01-23-he-kun-education-interview/7.jpg" alt="志愿服务" style="max-width: 600px; width: 100%; height: auto;">
+  <img src="{{ '/images/posts/2026-01-23-he-kun-education-interview/7.jpg' | relative_url }}" alt="志愿服务" style="max-width: 600px; width: 100%; height: auto;">
 </div>
 
 > 「我们不能只培养研究者，更要培养完整的人。」

@@ -2,20 +2,20 @@
 title: 教职招聘
 nav:
   order: 5
-  tooltip: Recruitment
+  tooltip: 教职招聘
 ---
 # {% include icon.html icon="fa-solid fa-chalkboard-user" %} 华中科技大学霍普克罗夫特计算科学研究中心教职招聘启事  
 
 ## 中心简介 | About Us  
 
 <div align="center">
-  <img src="/images/posts/2025-06-08-teacher-recruitment/image_1.png" style="max-width: 480px; width: 100%; height: auto;">
+  <img src="{{ '/images/posts/2025-06-08-teacher-recruitment/image_1.png' | relative_url }}" style="max-width: 480px; width: 100%; height: auto;">
 </div>
 
 华中科技大学霍普克罗夫特计算科学研究中心（Hopcroft Center on Computer Science, HCCS）于2023年2月正式启动，由图灵奖得主、美国科学院/工程院和艺术与科学院院士、中国科学院外籍院士、华中科技大学名誉教授John Hopcroft担任中心主任，何琨琨教授担任中心副主任。中心致力于基础研究与教育两个层面。在研究方面，基于前期与John Hopcroft教授的紧密合作基础，立足于国家“双一流”建设精神，致力于解决计算科学领域中的基础性难题，取得有影响力的原创性理论和应用成果，广纳海内外优秀人才，建设一个年龄结构合理、整体实力顶尖、科研水准一流的国际化高水平前沿研究中心，提升华中科技大学在计算机科学理论与算法、智能科学与技术等方向的国际、国内影响力，为国家的科技进步和现代化建设提供可靠的驱动力。在教育方面，中心专注于提升计算机学科相关本科生与研究生课程和学生培养质量，培养具有坚实理论基础与实践能力的计算机青年人才。  
 
 <div align="center">
-  <img src="/images/posts/2025-06-08-teacher-recruitment/image_2.png" style="max-width: 480px; width: 100%; height: auto;">
+  <img src="{{ '/images/posts/2025-06-08-teacher-recruitment/image_2.png' | relative_url }}" style="max-width: 480px; width: 100%; height: auto;">
 </div>
 
 ## 主要研究方向  

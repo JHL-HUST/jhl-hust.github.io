@@ -1,9 +1,23 @@
 ---
+title: 首页
+description: 华中科技大学霍普克罗夫特计算科学研究中心，由 John Hopcroft 教授领衔，开展人工智能与理论计算机科学研究、学术交流及人才培养。
 ---
 
 # 华中科技大学John Hopcroft计算中心
 
-华中科技大学霍普克罗夫特计算科学研究中心（Hopcroft Center on Computing Science，HCCS）依托计算机科学与技术学院建设，旨在促进人工智能、计算机科学的相关基础研究的发展和人才培养。中心目前有教授2位、副教授1位、讲师1位、博士后1位、在读博士10余人、在读硕士30余人、并指导两个校本科生双创示范团队：ACM校集训队和AI派。中心以图灵奖得主John Hopcroft教授为主任，何琨教授为执行主任，主要研究领域包括人工智能、理论计算机科学，目前的研究方向包括可信人工智能、智能优化与决策、机器学习、深度学习、计算机视觉、自然语言处理以及AI4Science等。
+华中科技大学霍普克罗夫特计算科学研究中心（Hopcroft Center on Computer Science，HCCS）依托计算机科学与技术学院建设，由图灵奖得主 John Hopcroft 教授担任主任，何琨教授担任执行主任。中心致力于人工智能与理论计算机科学的基础研究和人才培养，研究方向涵盖可信人工智能、智能优化与决策、机器学习、计算机视觉、自然语言处理及 AI4Science。
+
+{% include section.html %}
+
+## 最新动态
+
+{% assign latest_posts = site.posts | sort: "date" | reverse | slice: 0, 3 %}
+{% for post in latest_posts %}
+  {% include post-excerpt.html lookup=post.slug %}
+{% endfor %}
+
+{% include button.html link="/news/" text="查看全部动态" icon="fa-solid fa-arrow-right" flip=true style="bare" %}
+{% include button.html link="/enrollment/" text="了解招生与申请" icon="fa-solid fa-user-graduate" style="bare" %}
 
 {% include section.html %}
 
@@ -38,7 +52,7 @@
 
 {%
   include button.html
-  link="projects"
+  link="/news/"
   text="查看中心动态"
   icon="fa-solid fa-arrow-right"
   flip=true
@@ -50,7 +64,7 @@
 {%
   include feature.html
   image="images/posts/2025-06-08-teacher-recruitment/image_1.png"
-  link="projects"
+  link="/news/"
   title="中心动态"
   flip=true
   style="bare"

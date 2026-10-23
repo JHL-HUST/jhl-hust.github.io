@@ -8,6 +8,10 @@
 {% endif %}
 
 {% assign type = site.data.types[member.role] %}
+{% assign portrait_description = member.description | default: type.description %}
+{% if member.role == 'phd' or member.role == 'postgraduate' %}
+  {% assign portrait_description = member.research_direction %}
+{% endif %}
 
 <div class="portrait-wrapper">
   <a
@@ -25,7 +29,7 @@
     <img
       src="{{ member.image | relative_url | uri_escape }}"
       class="portrait-image"
-      alt="member portrait"
+      alt="{{ member.name | default: '中心成员' | xml_escape }}的照片"
       loading="lazy"
       {% include fallback.html %}
     >
@@ -36,9 +40,9 @@
       </span>
     {% endif %}
 
-    {% if member.description or type %}
+    {% if portrait_description and portrait_description != '' %}
       <span class="portrait-description">
-        {{ member.description | default: type.description }}
+        {{ portrait_description }}
       </span>
     {% endif %}
 

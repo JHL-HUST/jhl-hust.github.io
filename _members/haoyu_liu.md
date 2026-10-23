@@ -3,6 +3,7 @@ name: 刘浩宇
 image:
 role: postgraduate
 description: BD2202 · CV
+research_direction: CV
 affiliation: 华中科技大学
 aliases:
   - Haoyu Liu

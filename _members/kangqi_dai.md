@@ -3,6 +3,7 @@ name: 代康琪
 image:
 role: phd
 description: 数学强基22 · 组合优化
+research_direction: 组合优化
 affiliation: 华中科技大学
 aliases:
   - Kangqi Dai

@@ -3,6 +3,7 @@ name: 廖奎
 image:
 role: postgraduate
 description: CS2205 · 企业联培 · 组合优化
+research_direction: 组合优化
 affiliation: 华中科技大学
 aliases:
   - Kui Liao

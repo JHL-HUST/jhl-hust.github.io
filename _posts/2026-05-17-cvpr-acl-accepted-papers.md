@@ -24,7 +24,7 @@ last_modified_at: ""
 实验结果表明，结构化思维导图锚点优于普通安全场景图片；即便将思维导图替换为通过 OCR 提取、并尽可能保留层级关系的文本版本，其效果仍弱于原始视觉思维导图版本，说明视觉结构化锚点比非结构化安全图片、也比文本层级结构更能有效偏置模型判断。RA-Attack 在 7 个主流闭源和开源模型上均展现出显著攻击效果，例如在 GPT-4o 上达到 82%，在 Gemini-2.5-Pro 上达到 92% 的攻击成功率。与此同时，论文还提出锚点去偏提示（ADP）这一轻量级防御方法，能够在基本不损害模型通用能力的同时显著降低攻击成功率。整体来看，该工作表明，认知安全应成为多模态大推理模型安全研究中的一个关键议题。
 
 <div align="center">
-  <img src="/images/posts/2026-05-17-cvpr-acl-accepted-papers/ra_attack_framework.png" alt="RA-Attack整体框架图" style="max-width: 600px; width: 100%; height: auto;">
+  <img src="{{ '/images/posts/2026-05-17-cvpr-acl-accepted-papers/ra_attack_framework.png' | relative_url }}" alt="RA-Attack整体框架图" style="max-width: 600px; width: 100%; height: auto;">
   <p class="center">图1：RA-Attack整体框架图</p>
 </div>
 
@@ -41,7 +41,7 @@ last_modified_at: ""
 实验结果表明，KVSmooth 在多项基准测试中显著降低了幻觉现象，例如 CHAIRS 指标由 41.8 降至 18.2，同时整体生成性能也得到提升，F1 分数由 77.5 提升至 79.2。该方法在保持精确率和召回率平衡的同时，验证了其有效性与通用性，为安全可靠的多模态生成提供了新的思路。
 
 <div align="center">
-  <img src="/images/posts/2026-05-17-cvpr-acl-accepted-papers/kvsmooth_comparison.png" alt="KVSmooth效果对比图" style="max-width: 600px; width: 100%; height: auto;">
+  <img src="{{ '/images/posts/2026-05-17-cvpr-acl-accepted-papers/kvsmooth_comparison.png' | relative_url }}" alt="KVSmooth效果对比图" style="max-width: 600px; width: 100%; height: auto;">
   <p class="center">图2：KVSmooth效果对比图</p>
 </div>
 
@@ -62,7 +62,7 @@ last_modified_at: ""
 实验结果表明，IGSR 在 VLSBench、MM-SafetyBench 和 HADES 等多个多模态安全基准上，对 6 个开源模型和 3 个闭源模型均表现出稳定优势。相较现有基线方法，整体防御成功率提升 62% 以上；在 VLSBench 上平均带来约 48% 的防御增益；在闭源模型 GPT-4o 上，防御成功率可由 43.33% 提升至 81.33%；在高难度基准 HADES 上，LLaMA3.2-V 的防御成功率可由 4.67% 提升至 72.67%。同时，IGSR 在 MM-Vet 上仍较好保持了模型的通用能力，说明其并不是以牺牲可用性为代价换取安全性。整体来看，该工作表明，多模态大模型的安全对齐需要进一步迈向一种结构化、证据驱动、可解释的安全推理范式。
 
 <div align="center">
-  <img src="/images/posts/2026-05-17-cvpr-acl-accepted-papers/igsr_framework.png" alt="IGSR整体框架图" style="max-width: 600px; width: 100%; height: auto;">
+  <img src="{{ '/images/posts/2026-05-17-cvpr-acl-accepted-papers/igsr_framework.png' | relative_url }}" alt="IGSR整体框架图" style="max-width: 600px; width: 100%; height: auto;">
   <p class="center">图3：IGSR整体框架图</p>
 </div>
 
@@ -79,6 +79,6 @@ last_modified_at: ""
 实验结果表明，LAD 在多种不同架构上均表现出良好的泛化能力，能够同时在生成类任务和判别类任务上有效缓解幻觉问题，并在保持高效推理的同时取得优异性能。这一工作为提升大视觉语言模型的可靠性与可解释性提供了新的思路。
 
 <div align="center">
-  <img src="/images/posts/2026-05-17-cvpr-acl-accepted-papers/lad_framework.png" alt="LAD整体框架图" style="max-width: 600px; width: 100%; height: auto;">
+  <img src="{{ '/images/posts/2026-05-17-cvpr-acl-accepted-papers/lad_framework.png' | relative_url }}" alt="LAD整体框架图" style="max-width: 600px; width: 100%; height: auto;">
   <p class="center">图4：LAD整体框架图</p>
 </div>

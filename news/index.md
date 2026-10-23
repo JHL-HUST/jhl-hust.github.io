@@ -1,13 +1,15 @@
 ---
 title: 中心动态
+description: 华中科技大学 Hopcroft 计算科学研究中心最新科研成果、学术交流、团队荣誉与通知公告。
+body_class: page-news
 nav:
   order: 2
-  tooltip: News of the center
+  tooltip: 中心动态
 ---
 
 # {% include icon.html icon="fa-solid fa-feather-pointed" %}中心动态
 
-中心定期举办学术讲座、研讨会和各类学术交流活动，积极参与国内外学术合作与交流，推动学科交叉与创新发展。中心成员在科研、教学、社会服务等方面不断取得新进展，相关动态和成果将持续更新，欢迎关注我们的最新消息。
+了解中心最新科研成果、学术交流、团队荣誉与通知公告。
 
 {% include section.html %}
 

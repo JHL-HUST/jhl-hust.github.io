@@ -48,10 +48,21 @@ jobs:
         if: runner.debug == '1'
         uses: mxschmitt/action-tmate@v3
 
+      - name: Set root url
+        if: github.event.action != 'closed'
+        run: |
+          printf "\n\nurl: ${{ steps.pages.outputs.origin }}" >> _config.yaml
+
       - name: Build preview version of site
         if: github.event.action != 'closed'
         run: |
           JEKYLL_ENV=production bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path || '' }}/${{ env.PREVIEWS_FOLDER }}/pr-${{ github.event.number }}"
+
+      - name: Check generated pages and links
+        if: github.event.action != 'closed'
+        env:
+          SITE_BASEURL: ${{ steps.pages.outputs.base_path || '' }}/${{ env.PREVIEWS_FOLDER }}/pr-${{ github.event.number }}
+        run: python3 -m unittest discover -s tests -v
 
       - name: Commit preview to Pages branch
         if: github.event.action != 'closed'
