@@ -136,8 +136,8 @@
 
       // info template
       let info = "";
-      info += `Showing ${x.toLocaleString()} of ${n.toLocaleString()} results<br>`;
-      info += "<a href='./'>Clear search</a>";
+      info += `共 ${n.toLocaleString()} 项，找到 ${x.toLocaleString()} 项结果<br>`;
+      info += "<a href='./'>清空搜索</a>";
 
       // set info HTML string
       boxes.forEach((el) => (el.innerHTML = info));
@@ -196,7 +196,7 @@
   };
 
   // when user types into search box
-  const debouncedRunSearch = debounce(runSearch, 1000);
+  const debouncedRunSearch = debounce(runSearch, 200);
   window.onSearchInput = (target) => {
     debouncedRunSearch(target.value);
     updateUrl(target.value);

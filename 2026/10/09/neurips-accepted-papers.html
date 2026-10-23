@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-dark="false">
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <!--
+  put your analytics (e.g. Google Analytics) tracking code here
+-->
+
+  <!--
+  put your search engine verification (e.g. Google Search Console) tag here
+-->
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HCCS 中心 5 篇论文入选 NeurIPS 2026！ | 华中科技大学John Hopcroft计算中心</title>
+<link rel="canonical" href="https://jhl-hust.github.io/2026/10/09/neurips-accepted-papers.html">
+<link rel="icon" href="https://jhl-hust.github.io/images/icon.png">
+<link rel="shortcut icon" href="/favicon.ico">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="apple-touch-icon-precomposed" href="/apple-touch-icon-precomposed.png">
+<meta name="title" content="HCCS 中心 5 篇论文入选 NeurIPS 2026！">
+<meta name="description" content="近日，人工智能领域顶级会议 NeurIPS 2026（Conference on Neural Information Processing Systems）公布录用结果，Hopcroft 计算科学研究中心共有五篇论文被接收。这些工作沿着“表示学习 → 后训练对齐 → 具身感知”的脉络展开，涵盖视觉-语言预训练、CLIP 后训练、大语言模型零阶强化学习...">
+
+<meta property="og:title" content="HCCS 中心 5 篇论文入选 NeurIPS 2026！">
+<meta property="og:site_name" content="华中科技大学John Hopcroft计算中心">
+<meta property="og:description" content="近日，人工智能领域顶级会议 NeurIPS 2026（Conference on Neural Information Processing Systems）公布录用结果，Hopcroft 计算科学研究中心共有五篇论文被接收。这些工作沿着“表示学习 → 后训练对齐 → 具身感知”的脉络展开，涵盖视觉-语言预训练、CLIP 后训练、大语言模型零阶强化学习...">
+<meta property="og:url" content="https://jhl-hust.github.io/2026/10/09/neurips-accepted-papers.html">
+<meta property="og:image" content="https://jhl-hust.github.io/images/posts/cover.webp">
+<meta property="og:locale" content="zh_CN">
+<meta name="twitter:title" content="HCCS 中心 5 篇论文入选 NeurIPS 2026！">
+<meta name="twitter:description" content="近日，人工智能领域顶级会议 NeurIPS 2026（Conference on Neural Information Processing Systems）公布录用结果，Hopcroft 计算科学研究中心共有五篇论文被接收。这些工作沿着“表示学习 → 后训练对齐 → 具身感知”的脉络展开，涵盖视觉-语言预训练、CLIP 后训练、大语言模型零阶强化学习...">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://jhl-hust.github.io/images/posts/cover.webp">
+
+  <meta property="og:type" content="article">
+  <meta property="article:published_time" content="2026-10-09T00:00:00+00:00">
+  <meta property="article:modified_time" content="2026-10-09T00:00:00+00:00">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "name": "HCCS 中心 5 篇论文入选 NeurIPS 2026！",
+  "headline": "HCCS 中心 5 篇论文入选 NeurIPS 2026！",
+  "description": "近日，人工智能领域顶级会议 NeurIPS 2026（Conference on Neural Information Processing Systems）公布录用结果，Hopcroft 计算科学研究中心共有五篇论文被接收。这些工作沿着“表示学习 → 后训练对齐 → 具身感知”的脉络展开，涵盖视觉-语言预训练、CLIP 后训练、大语言模型零阶强化学习...",
+  "url": "https://jhl-hust.github.io/2026/10/09/neurips-accepted-papers.html",
+  "image": "https://jhl-hust.github.io/images/posts/cover.webp",
+  "inLanguage": "zh-CN",
+  
+  "datePublished": "2026-10-09T00:00:00+00:00",
+  "dateModified": "2026-10-09T00:00:00+00:00",
+  "author": {
+    
+    "@type": "Organization",
+    "name": "华中科技大学John Hopcroft计算中心"
+    
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "华中科技大学John Hopcroft计算中心",
+    "logo": {"@type": "ImageObject", "url": "https://jhl-hust.github.io/images/icon.png"}
+  }
+}
+</script>
+<link rel="alternate" type="application/rss+xml" href="https://jhl-hust.github.io/feed.xml">
+
+  <!-- Google Fonts -->
+<!-- automatically get url from fonts used in theme file -->
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?display=swap&&family=Barlow:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600&amp;family=Roboto+Mono:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600" rel="stylesheet">
+
+<!-- Font Awesome icons (load asynchronously due to size) -->
+
+<link href="https://use.fontawesome.com/releases/v6.7.0/css/all.css" rel="stylesheet" media="none" onload="this.removeAttribute('media'); this.onload = null;">
+<noscript>
+  <link href="https://use.fontawesome.com/releases/v6.7.0/css/all.css" rel="stylesheet">
+</noscript>
+
+  <!-- third party styles -->
+<!-- https://stylishthemes.github.io/Syntax-Themes/pygments/ -->
+<link href="https://cdn.jsdelivr.net/gh/StylishThemes/Syntax-Themes/pygments/css-github/pygments-tomorrow-night-eighties.css" rel="stylesheet">
+
+<!-- include all sass in styles folder -->
+
+
+  
+    <link href="/_styles/-theme.css?v=1792753162" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/accessibility.css?v=1792753162" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/alert.css?v=1792753162" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/all.css?v=1792753162" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/anchor.css?v=1792753162" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/background.css?v=1792753162" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/body.css?v=1792753162" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/bold.css?v=1792753162" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/button.css?v=1792753162" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/card.css?v=1792753162" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/checkbox.css?v=1792753162" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/citation.css?v=1792753162" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/code.css?v=1792753162" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/cols.css?v=1792753162" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/dark-toggle.css?v=1792753162" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/details.css?v=1792753162" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/feature.css?v=1792753162" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/figure.css?v=1792753162" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/float.css?v=1792753162" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/font.css?v=1792753162" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/footer.css?v=1792753162" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/form.css?v=1792753162" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/grid.css?v=1792753162" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/header.css?v=1792753162" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/heading.css?v=1792753162" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/highlight.css?v=1792753162" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/icon.css?v=1792753162" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/image.css?v=1792753162" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/link.css?v=1792753162" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/list.css?v=1792753162" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/main.css?v=1792753162" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/paragraph.css?v=1792753162" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/portrait.css?v=1792753162" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/post-excerpt.css?v=1792753162" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/post-info.css?v=1792753162" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/post-nav.css?v=1792753162" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/quote.css?v=1792753162" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/rule.css?v=1792753162" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/search-box.css?v=1792753162" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/search-info.css?v=1792753162" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/section.css?v=1792753162" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/table.css?v=1792753162" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/tags.css?v=1792753162" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/textbox.css?v=1792753162" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/tooltip.css?v=1792753162" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/util.css?v=1792753162" rel="stylesheet">
+  
+
+
+<!-- include all css in styles folder -->
+
+
+
+  <!-- third party scripts -->
+<script src="https://unpkg.com/@popperjs/core@2" defer></script>
+<script src="https://unpkg.com/tippy.js@6" defer></script>
+<script src="https://unpkg.com/mark.js@8" defer></script>
+
+<!-- include all js in scripts folder -->
+
+
+  <script src="/_scripts/anchors.js?v=1792753162"></script>
+
+  <script src="/_scripts/dark-mode.js?v=1792753162"></script>
+
+  <script src="/_scripts/fetch-tags.js?v=1792753162"></script>
+
+  <script src="/_scripts/search.js?v=1792753162"></script>
+
+  <script src="/_scripts/site-search.js?v=1792753162"></script>
+
+  <script src="/_scripts/table-wrap.js?v=1792753162"></script>
+
+  <script src="/_scripts/tooltip.js?v=1792753162"></script>
+
+
+</head>
+
+  <body class="">
+    <a class="skip-link" href="#main-content">跳转到正文</a>
+    
+
+
+
+
+
+
+
+<header class="background" style="--image: url('/images/background.png')" data-dark="true">
+  <a href="/" class="home">
+    
+      <span class="logo">
+        
+          <img src="/images/logo.png" alt="logo">
+        
+      </span>
+    
+    
+      <span class="title-text" data-tooltip="返回首页">
+        
+          <span class="title">华中科技大学John Hopcroft计算中心</span>
+        
+        
+          <span class="subtitle">Hopcroft Center on Computer Science, HUST</span>
+        
+      </span>
+    
+  </a>
+
+  <input class="nav-toggle" type="checkbox" aria-label="展开或收起导航菜单" aria-controls="site-nav">
+
+  <nav id="site-nav" aria-label="主导航">
+    
+    
+      
+        <a href="/about/" data-tooltip="中心概况">
+          中心概况
+        </a>
+      
+    
+      
+        <a href="/news/" data-tooltip="中心动态">
+          中心动态
+        </a>
+      
+    
+      
+        <a href="/team/" data-tooltip="人才队伍">
+          人才队伍
+        </a>
+      
+    
+      
+        <a href="/research/" data-tooltip="研究成果">
+          研究成果
+        </a>
+      
+    
+      
+        <a href="/enrollment/" data-tooltip="招生与申请">
+          中心招生
+        </a>
+      
+    
+      
+        <a href="/recruitment/" data-tooltip="教职招聘">
+          教职招聘
+        </a>
+      
+    
+      
+        <a href="/contact/" data-tooltip="联系我们">
+          联系我们
+        </a>
+      
+    
+  </nav>
+</header>
+
+    <main id="main-content">
+      <!--
+  modify main content of page:
+  - add section breaks
+  - attach section properties
+  - filter out blank sections
+-->
+
+
+
+
+
+
+  
+  
+  
+
+  <section class="background" data-size="1" style="--image: url('/images/posts/cover.webp')">
+    <!--
+  <background>/images/posts/cover.webp</background>
+  <dark></dark>
+  <size>1</size>
+-->
+
+
+<h1 class="center">HCCS 中心 5 篇论文入选 NeurIPS 2026！</h1>
+
+<div class="post-info">
+  
+
+  
+  
+
+  
+    <span data-tooltip="发布日期">
+      <i class="icon fa-regular fa-calendar"></i>
+      <span>2026年10月09日</span>
+    </span>
+  
+
+  
+</div>
+
+
+  
+
+
+  <div class="tags">
+    
+      <a href="/news/?search=%22tag:%20%E6%96%B0%E9%97%BB%22" class="tag" data-tooltip="查看标签为「新闻」的内容">
+        新闻
+      </a>
+    
+  </div>
+  </section>
+
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <!--
+  <background></background>
+  <dark></dark>
+  <size></size>
+-->
+
+
+<p>近日，人工智能领域顶级会议 NeurIPS 2026（Conference on Neural Information Processing Systems）公布录用结果，<!-- excerpt start -->Hopcroft 计算科学研究中心共有五篇论文被接收。这些工作沿着“表示学习 → 后训练对齐 → 具身感知”的脉络展开，涵盖视觉-语言预训练、CLIP 后训练、大语言模型零阶强化学习、扩散模型强化学习对齐，以及具身智能中的 3D 可供性感知。<!-- excerpt end -->下面带大家快速了解这些工作。</p>
+
+<h2 id="01ito训练时融合推理零开销的图文预训练新框架">01｜ITO：训练时融合、推理零开销的图文预训练新框架</h2>
+
+<p><strong>论文标题：</strong> ITO: Multi-View Alignment and Training-Time Fusion for Image-Text Pretraining</p>
+
+<p><strong>作者：</strong> Hanpeng Liu, Zidan Wang, Shuoxi Zhang, Zonglin Zhao, Zihao Bo, Rinyoichi Takezoe, Kaiwen Long, Yaqian Li, Kun He</p>
+
+<p><strong>单位：</strong> 华中科技大学、理想汽车、中国科学院</p>
+
+<p><strong>代码地址：</strong> <a href="https://github.com/showstarpro/ITO">showstarpro/ITO</a></p>
+
+<h3 id="研究动机">研究动机</h3>
+
+<p>CLIP 式对比学习能够把成对的图像和文本拉近，但“对齐”并不等于“按语义组织”：在学到的表示空间里，图像嵌入和文本嵌入往往仍按模态各自聚成一团，存在明显的模态鸿沟。</p>
+
+<h3 id="核心方法">核心方法</h3>
+
+<p>ITO 通过两个分工明确的机制解决这一问题：</p>
+
+<ul>
+  <li>
+<strong>多视角对齐（Multi-View Alignment）：</strong> 让同一条文本对应多个增强后的图像视角，把一对一监督扩展为多对一监督，这是判别性能提升的主要来源。</li>
+  <li>
+<strong>训练时多模态融合（Training-Time Fusion）：</strong> 引入轻量融合模块作为正则项，只在训练时使用，推理时直接丢弃。部署时模型仍保持标准双塔结构，推理成本与 CLIP 完全相同。</li>
+</ul>
+
+<h3 id="实验结果">实验结果</h3>
+
+<p>研究在从百万到十亿级别的数据上验证了 ITO（CC3M → DataComp-1B）：</p>
+
+<ul>
+  <li>中等数据规模下，ITO 超过 CLIP、SLIP、SigLIP、FLAIR 等强基线；在 100M–1B 规模下，相较于相同数据、骨干网络和训练设置的 CLIP 稳定领先。</li>
+  <li>线性探测最高提升 +7.9（YFCC15M），在 DataComp-1B 上提升 +1.6。</li>
+  <li>作为 LLaVA 的视觉编码器，在 VQAv2、GQA、MM-Vet、POPE 上全面优于 CLIP。</li>
+  <li>
+<strong>性能增益并非依赖额外堆叠算力：</strong> CLIP 训练 60 个 epoch 时，计算量已达 ITO 训练 30 个 epoch 的约 87%，但性能仍落后 7.0 个点。</li>
+  <li>融合模块的收益随数据规模增大而增大，并能够抑制对比学习训练后期的过拟合。</li>
+</ul>
+
+<p><strong>工作亮点：</strong> 训练时多模态融合，推理时零额外开销，在大规模图文预训练中实现稳定性能提升。</p>
+
+<div align="center">
+  <img src="/images/posts/2026-10-09-neurips-accepted-papers/ito-framework.png" alt="ITO 多视角对齐与训练时多模态融合框架" style="max-width: 600px; width: 100%; height: auto;">
+  <p class="center">图1：ITO 框架</p>
+</div>
+
+<h2 id="02comclip重新审视-clip-后训练中的对比损失">02｜ComCLIP：重新审视 CLIP 后训练中的对比损失</h2>
+
+<p><strong>论文标题：</strong> Rethinking Contrastive Loss in CLIP Post-training: A Complementary Framework with Frozen Text Encoder</p>
+
+<p><strong>作者：</strong> Zidan Wang, Yaqian Li, Xiaokai Zhang, Kaiwen Long, Kun He, Hanpeng Liu</p>
+
+<p><strong>单位：</strong> 华中科技大学、理想汽车</p>
+
+<p><strong>代码地址：</strong> <a href="https://github.com/showstarpro/ComCLIP">showstarpro/ComCLIP</a></p>
+
+<h3 id="研究动机-1">研究动机</h3>
+
+<p>已有工作认为，CLIP 后训练时 batch 较小，继续使用对比损失会导致灾难性遗忘，因此倾向于放弃对比损失。</p>
+
+<p>但问题真的出在 batch size 上吗？</p>
+
+<h3 id="核心发现与方法">核心发现与方法</h3>
+
+<p>研究发现，遗忘的主要原因是温度系数 τ 设置不当，而不是 batch 太小。</p>
+
+<p>只需将 τ 从 0.07 调整到 0.01，对比后训练就能反过来提升原模型的性能。</p>
+
+<p>基于这一发现，研究提出 <strong>ComCLIP</strong>：冻结文本编码器，仅训练 <strong>1 个 epoch</strong>，联合使用三项目标精修视觉编码器：</p>
+
+<ul>
+  <li>
+<strong>小温度对比损失：</strong> 改善对比后训练的优化效果；</li>
+  <li>
+<strong>MSE 锚定：</strong> 约束视觉特征不偏离原始 CLIP；</li>
+  <li>
+<strong>DINOv2 关系蒸馏：</strong> 引入视觉特征之间的关系知识。</li>
+</ul>
+
+<p>训练后的视觉编码器结构和推理开销均保持不变，可以即插即用地替换原有 CLIP。</p>
+
+<h3 id="实验结果-1">实验结果</h3>
+
+<ul>
+  <li>
+<strong>零样本分类：</strong> 与 CLIP-Refine 持平；</li>
+  <li>
+<strong>线性探测：</strong> 显著优于 CLIP-Refine，达到 48.99 vs 42.28；</li>
+  <li>
+<strong>多模态大模型迁移：</strong> 可直接接入 LLaVA-1.5-7B，无需重新对齐，不影响下游性能。</li>
+</ul>
+
+<p><strong>工作亮点：</strong> 仅需 1 个 epoch，通过重新设计对比损失与互补训练目标，实现 CLIP 视觉编码器的高效精修。</p>
+
+<div align="center">
+  <img src="/images/posts/2026-10-09-neurips-accepted-papers/comclip-framework.png" alt="ComCLIP 冻结文本编码器与互补训练目标框架" style="max-width: 600px; width: 100%; height: auto;">
+  <p class="center">图2：ComCLIP 框架</p>
+</div>
+
+<h2 id="03zo-bolt失配的代价零阶强化学习中的噪声放大">03｜ZO-BOLT：失配的代价——零阶强化学习中的噪声放大</h2>
+
+<p><strong>论文标题：</strong> The Cost of Mismatch: Noise Amplification in Zeroth-Order Reinforcement Learning</p>
+
+<p><strong>作者：</strong> Lianmin Chen, Junbin Qiu, Chenxing Wei, Yao Shu, Kun He</p>
+
+<p><strong>单位：</strong> 华中科技大学、香港科技大学（广州）</p>
+
+<h3 id="研究动机-2">研究动机</h3>
+
+<p>可验证奖励的强化学习（RLVR）已成为提升大语言模型推理能力的重要后训练范式，但主流一阶优化依赖反向传播，显存开销大。</p>
+
+<p>零阶优化（ZOO）只需前向计算，可将训练显存降至接近推理的水平。</p>
+
+<p>然而，现有大模型零阶优化研究主要集中在监督微调等固定数据场景。零阶优化在 RLVR 中是否可靠，仍缺少系统研究。</p>
+
+<h3 id="核心发现">核心发现</h3>
+
+<p>零阶优化通过比较参数扰动前后的函数值差分估计梯度。</p>
+
+<p>在同策略（on-policy）强化学习中，用于评估的数据由模型自己采样，而参数一旦被扰动，差分两端就必须各自独立采样。</p>
+
+<p>这造成了数据失配（mismatched-data regime），进而引入 <strong>1/μ² 量级的噪声放大</strong>（μ 为扰动规模），严重削弱优化信号。</p>
+
+<h3 id="核心方法zo-bolt">核心方法：ZO-BOLT</h3>
+
+<p>针对上述问题，研究提出 ZO-BOLT。</p>
+
+<p>该方法将零阶优化应用于 BOLT 中与 RLVR 目标对齐的加权监督微调目标，使有限差分两端共享同一批数据，保证数据匹配（matched-data regime），从而避免失配带来的 1/μ² 噪声放大。</p>
+
+<h3 id="实验结果-2">实验结果</h3>
+
+<ul>
+  <li>
+<strong>机制验证：</strong> 受控实验通过估计噪声方差，直接验证数据失配下的 1/μ² 方差放大，而数据匹配下没有出现这一现象。</li>
+  <li>
+<strong>端到端验证：</strong> ZO-BOLT 和 ZO-GRPO 的数据匹配版本，均优于对应的数据失配版本。</li>
+  <li>
+<strong>数学推理表现：</strong> ZO-BOLT 在保持显存优势的同时，实现了有效的性能提升。</li>
+</ul>
+
+<p><strong>工作亮点：</strong> 揭示零阶强化学习中的数据失配与噪声放大机制，并通过数据匹配实现更稳定、高效的大模型后训练。</p>
+
+<div align="center">
+  <img src="/images/posts/2026-10-09-neurips-accepted-papers/zo-bolt-framework.png" alt="同策略强化学习的数据失配与 ZO-BOLT 数据匹配机制对比" style="max-width: 600px; width: 100%; height: auto;">
+  <p class="center">图3：ZO-BOLT 框架</p>
+</div>
+
+<h2 id="04tmpo轨迹匹配策略优化让扩散模型对齐既多样又高效">04｜TMPO：轨迹匹配策略优化，让扩散模型对齐既多样又高效</h2>
+
+<p><strong>论文标题：</strong> TMPO: Trajectory Matching Policy Optimization for Diverse and Efficient Diffusion Alignment</p>
+
+<p><strong>作者：</strong> Jiaming Li, Chenyu Zhu, Nanxi Yi, Youjun Bao, Li Sun, Quanying Lv, Xiang Fang, Daizong Liu, Jianjun Li, Kun He, Bowen Zhou, Zhiyuan Ma</p>
+
+<p><strong>单位：</strong> 华中科技大学、快手、南洋理工大学、武汉大学、清华大学</p>
+
+<p><strong>论文地址：</strong> <a href="https://arxiv.org/abs/2605.10983">arXiv:2605.10983</a></p>
+
+<p><strong>代码地址：</strong> <a href="https://github.com/mair-lab-hust/tmpo">mair-lab-hust/tmpo</a></p>
+
+<h3 id="研究动机-3">研究动机</h3>
+
+<p>强化学习已被广泛用于将扩散模型对齐到人类偏好等下游目标，但现有方法普遍存在奖励投机（reward hacking）：生成结果逐渐集中到少数高奖励的“套路”上，出现视觉模式崩塌（Visual Mode Collapse），多样性和质量双双下降。我们认为，问题的根源在于这些方法“只追求最大化期望奖励”的模式寻求（mode-seeking）特性——它没有约束策略在所有可接受轨迹上的概率分布。</p>
+
+<h3 id="方法">方法</h3>
+
+<p>TMPO 将对齐目标从“最大化标量期望奖励”转变为“轨迹级奖励分布匹配”：</p>
+
+<ul>
+  <li>
+<strong>Softmax 轨迹平衡（Softmax-TB）目标：</strong> 让 K 条采样轨迹的策略概率去匹配由奖励诱导的 Boltzmann 分布，无需估计复杂的全局配分函数。理论上，该目标继承了前向 KL 散度的模式覆盖（mode-covering）性质，能在优化奖励的同时保持对各类可接受结果的覆盖。</li>
+  <li>
+<strong>动态随机树采样（Dynamic Stochastic Tree Sampling）：</strong> 多条轨迹共享去噪前缀，只在动态调度的步数处分叉，大幅减少多轨迹训练中的冗余计算。</li>
+</ul>
+
+<h3 id="实验结果-3">实验结果</h3>
+
+<ul>
+  <li>在 FLUX.1-dev 和 SD3.5-Medium 上，覆盖人类偏好、组合生成、文字渲染等多种对齐任务；</li>
+  <li>生成多样性相比当前最优方法提升 <strong>9.1%</strong>，各项下游指标保持竞争力，取得奖励与多样性的最佳权衡；</li>
+  <li>借助动态随机树采样，单次训练迭代时间缩短近 <strong>40%</strong>。</li>
+</ul>
+
+<div align="center">
+  <img src="/images/posts/2026-10-09-neurips-accepted-papers/tmpo-framework.png" alt="TMPO 动态随机树采样与轨迹匹配策略优化框架" style="max-width: 600px; width: 100%; height: auto;">
+  <p class="center">图4：TMPO 框架</p>
+</div>
+
+<h2 id="05videoafford从人-物交互视频中定位-3d-可供性">05｜VideoAfford：从人-物交互视频中定位 3D 可供性</h2>
+
+<p><strong>论文标题：</strong> VideoAfford: Grounding 3D Affordance from Human-Object-Interaction Videos via Multimodal Large Language Model</p>
+
+<p><strong>作者：</strong> Hanqing Wang¹, Mingyu Liu², Xiaoyu Chen¹, Chengwei Ma¹, Yiming Zhong³, Wenti Yin⁴, Yuhao Liu⁵, Zhiqing Cui¹, Jiahao Yuan¹, Lu Dai¹˒⁶, Zhiyuan Ma⁴˒†, Hui Xiong¹˒⁶˒†（† 通讯作者）</p>
+
+<p><strong>单位：</strong> ¹香港科技大学（广州） ²浙江大学 ³上海科技大学 ⁴华中科技大学 ⁵山东大学 ⁶香港科技大学</p>
+
+<p><strong>论文地址：</strong> <a href="https://arxiv.org/abs/2602.09638">arXiv:2602.09638</a></p>
+
+<p><strong>代码地址：</strong> <a href="https://github.com/HKUST-GZ-CVL/VideoAfford">HKUST-GZ-CVL/VideoAfford</a></p>
+
+<h3 id="研究动机-4">研究动机</h3>
+
+<p>机器人要“会用”物体，首先得知道物体的哪些部位可以被怎样使用，即 <strong>3D 可供性定位（3D Affordance Grounding）</strong>。</p>
+
+<p>设想观看一段“人拿起杯子喝水”的完整视频：我们不仅能看到手抓在哪里，还能理解动作的力度、轨迹，以及杯子在空间中的功能属性。</p>
+
+<p>从动态交互中理解物体的“可利用性”，正是机器人走向智能操作的关键能力。</p>
+
+<h3 id="主要贡献">主要贡献</h3>
+
+<ul>
+  <li>
+<strong>构建大规模数据集：</strong> 提出首个大规模视频驱动的 3D 可供性数据集 VIDA。</li>
+  <li>
+<strong>提出 VideoAfford 框架：</strong> 借助多模态大语言模型，利用视频中的动态交互信息，精准定位 3D 空间中的可供性区域。</li>
+  <li>
+<strong>探索具身智能操作：</strong> 该工作也是团队面向交互式 VLA 操作方向的首个铺垫性工作。</li>
+</ul>
+
+<p><strong>工作亮点：</strong> 从静态物体感知走向动态交互理解，为机器人学习物体功能与智能操作提供新的研究路径。</p>
+
+<div align="center">
+  <img src="/images/posts/2026-10-09-neurips-accepted-papers/videoafford-framework.png" alt="VideoAfford 从人-物交互视频定位三维可供性区域的框架" style="max-width: 600px; width: 100%; height: auto;">
+  <p class="center">图5：VideoAfford 框架</p>
+</div>
+
+<h2 id="结语">结语</h2>
+
+<p>以上五项工作覆盖了视觉-语言表示学习、大语言模型与生成模型的强化学习对齐，以及具身智能感知等多个方向。欢迎大家阅读论文、试用代码、交流讨论！</p>
+
+<p>关注 HCCS 中心公众号，获取更多前沿科研成果与学术动态！</p>
+
+<p>原文来源：<a href="https://mp.weixin.qq.com/s/_Dm5cbV6nkY8NfpckQhhiA">华中科大 Hopcroft 计算科学中心：HCCS 中心 5 篇论文入选 NeurIPS 2026！</a>（2026 年 10 月 9 日）</p>
+  </section>
+
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <!--
+  <background></background>
+  <dark></dark>
+  <size></size>
+-->
+
+
+<div class="post-nav">
+  <span>
+    
+      <i class="icon fa-solid fa-angle-left"></i> Previous post<br>
+      <a href="/2026/05/17/cvpr-acl-accepted-papers.html">
+        中心四篇论文被CVPR及ACL 2026录用！
+      </a>
+    
+  </span>
+  <span>
+    
+  </span>
+</div>
+  </section>
+
+
+    </main>
+    
+
+
+<footer class="background" style="--image: url('/images/background.png')" data-dark="true" data-size="wide">
+  <!--
+    <div>
+      Extra details like contact info or address
+    </div>
+  -->
+
+  <div>
+    
+      
+      
+      
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="mailto:contact@JHL-HUST.com" data-tooltip="Email" data-style="bare" aria-label="Email">
+      <i class="icon fa-solid fa-envelope"></i>
+      
+    </a>
+  </div>
+
+
+    
+      
+      
+      
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="https://orcid.org/0000-0001-7627-4604" data-tooltip="ORCID" data-style="bare" aria-label="ORCID">
+      <i class="icon fa-brands fa-orcid"></i>
+      
+    </a>
+  </div>
+
+
+    
+      
+      
+      
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="https://scholar.google.com/citations?user=YTQnGJsAAAAJ" data-tooltip="Google Scholar" data-style="bare" aria-label="Google Scholar">
+      <i class="icon fa-brands fa-google"></i>
+      
+    </a>
+  </div>
+
+
+    
+      
+      
+      
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="https://github.com/JHL-HUST" data-tooltip="GitHub" data-style="bare" aria-label="GitHub">
+      <i class="icon fa-brands fa-github"></i>
+      
+    </a>
+  </div>
+
+
+    
+  </div>
+
+  <div>
+    © 2026
+    华中科技大学John Hopcroft计算中心
+      |   Built with
+    <a href="https://github.com/greenelab/lab-website-template">
+      Lab Website Template
+    </a>
+  </div>
+
+  <input type="checkbox" class="dark-toggle" data-tooltip="切换深色模式" aria-label="切换深色模式" oninput="onDarkToggleChange(event)">
+</footer>
+
+  </body>
+</html>

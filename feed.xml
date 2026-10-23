@@ -1,4 +1,219 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://jhl-hust.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jhl-hust.github.io/" rel="alternate" type="text/html" /><updated>2026-09-10T15:14:32+00:00</updated><id>https://jhl-hust.github.io/feed.xml</id><title type="html">华中科技大学John Hopcroft计算中心</title><subtitle>华中科技大学John Hopcroft计算中心官方网站</subtitle><entry><title type="html">中心四篇论文被CVPR及ACL 2026录用！</title><link href="https://jhl-hust.github.io/2026/05/17/cvpr-acl-accepted-papers.html" rel="alternate" type="text/html" title="中心四篇论文被CVPR及ACL 2026录用！" /><published>2026-05-17T00:00:00+00:00</published><updated>2026-05-17T00:00:00+00:00</updated><id>https://jhl-hust.github.io/2026/05/17/cvpr-acl-accepted-papers</id><content type="html" xml:base="https://jhl-hust.github.io/2026/05/17/cvpr-acl-accepted-papers.html"><![CDATA[<p>近日，计算机视觉与自然语言处理领域顶级国际会议 CVPR 2026 和 ACL 2026 论文录用结果相继揭晓，<!-- excerpt start -->华中科技大学霍普克罗夫特计算科学研究中心共有 4 篇论文被录用，其中 2 篇被 CVPR 2026 录用，2 篇被 ACL 2026 录用。<!-- excerpt end --></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://jhl-hust.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jhl-hust.github.io/" rel="alternate" type="text/html" /><updated>2026-10-23T10:59:22+00:00</updated><id>https://jhl-hust.github.io/feed.xml</id><title type="html">华中科技大学John Hopcroft计算中心</title><subtitle>华中科技大学John Hopcroft计算中心官方网站</subtitle><entry><title type="html">HCCS 中心 5 篇论文入选 NeurIPS 2026！</title><link href="https://jhl-hust.github.io/2026/10/09/neurips-accepted-papers.html" rel="alternate" type="text/html" title="HCCS 中心 5 篇论文入选 NeurIPS 2026！" /><published>2026-10-09T00:00:00+00:00</published><updated>2026-10-09T00:00:00+00:00</updated><id>https://jhl-hust.github.io/2026/10/09/neurips-accepted-papers</id><content type="html" xml:base="https://jhl-hust.github.io/2026/10/09/neurips-accepted-papers.html"><![CDATA[<p>近日，人工智能领域顶级会议 NeurIPS 2026（Conference on Neural Information Processing Systems）公布录用结果，<!-- excerpt start -->Hopcroft 计算科学研究中心共有五篇论文被接收。这些工作沿着“表示学习 → 后训练对齐 → 具身感知”的脉络展开，涵盖视觉-语言预训练、CLIP 后训练、大语言模型零阶强化学习、扩散模型强化学习对齐，以及具身智能中的 3D 可供性感知。<!-- excerpt end -->下面带大家快速了解这些工作。</p>
+
+<h2 id="01ito训练时融合推理零开销的图文预训练新框架">01｜ITO：训练时融合、推理零开销的图文预训练新框架</h2>
+
+<p><strong>论文标题：</strong> ITO: Multi-View Alignment and Training-Time Fusion for Image-Text Pretraining</p>
+
+<p><strong>作者：</strong> Hanpeng Liu, Zidan Wang, Shuoxi Zhang, Zonglin Zhao, Zihao Bo, Rinyoichi Takezoe, Kaiwen Long, Yaqian Li, Kun He</p>
+
+<p><strong>单位：</strong> 华中科技大学、理想汽车、中国科学院</p>
+
+<p><strong>代码地址：</strong> <a href="https://github.com/showstarpro/ITO">showstarpro/ITO</a></p>
+
+<h3 id="研究动机">研究动机</h3>
+
+<p>CLIP 式对比学习能够把成对的图像和文本拉近，但“对齐”并不等于“按语义组织”：在学到的表示空间里，图像嵌入和文本嵌入往往仍按模态各自聚成一团，存在明显的模态鸿沟。</p>
+
+<h3 id="核心方法">核心方法</h3>
+
+<p>ITO 通过两个分工明确的机制解决这一问题：</p>
+
+<ul>
+  <li><strong>多视角对齐（Multi-View Alignment）：</strong> 让同一条文本对应多个增强后的图像视角，把一对一监督扩展为多对一监督，这是判别性能提升的主要来源。</li>
+  <li><strong>训练时多模态融合（Training-Time Fusion）：</strong> 引入轻量融合模块作为正则项，只在训练时使用，推理时直接丢弃。部署时模型仍保持标准双塔结构，推理成本与 CLIP 完全相同。</li>
+</ul>
+
+<h3 id="实验结果">实验结果</h3>
+
+<p>研究在从百万到十亿级别的数据上验证了 ITO（CC3M → DataComp-1B）：</p>
+
+<ul>
+  <li>中等数据规模下，ITO 超过 CLIP、SLIP、SigLIP、FLAIR 等强基线；在 100M–1B 规模下，相较于相同数据、骨干网络和训练设置的 CLIP 稳定领先。</li>
+  <li>线性探测最高提升 +7.9（YFCC15M），在 DataComp-1B 上提升 +1.6。</li>
+  <li>作为 LLaVA 的视觉编码器，在 VQAv2、GQA、MM-Vet、POPE 上全面优于 CLIP。</li>
+  <li><strong>性能增益并非依赖额外堆叠算力：</strong> CLIP 训练 60 个 epoch 时，计算量已达 ITO 训练 30 个 epoch 的约 87%，但性能仍落后 7.0 个点。</li>
+  <li>融合模块的收益随数据规模增大而增大，并能够抑制对比学习训练后期的过拟合。</li>
+</ul>
+
+<p><strong>工作亮点：</strong> 训练时多模态融合，推理时零额外开销，在大规模图文预训练中实现稳定性能提升。</p>
+
+<div align="center">
+  <img src="/images/posts/2026-10-09-neurips-accepted-papers/ito-framework.png" alt="ITO 多视角对齐与训练时多模态融合框架" style="max-width: 600px; width: 100%; height: auto;" />
+  <p class="center">图1：ITO 框架</p>
+</div>
+
+<h2 id="02comclip重新审视-clip-后训练中的对比损失">02｜ComCLIP：重新审视 CLIP 后训练中的对比损失</h2>
+
+<p><strong>论文标题：</strong> Rethinking Contrastive Loss in CLIP Post-training: A Complementary Framework with Frozen Text Encoder</p>
+
+<p><strong>作者：</strong> Zidan Wang, Yaqian Li, Xiaokai Zhang, Kaiwen Long, Kun He, Hanpeng Liu</p>
+
+<p><strong>单位：</strong> 华中科技大学、理想汽车</p>
+
+<p><strong>代码地址：</strong> <a href="https://github.com/showstarpro/ComCLIP">showstarpro/ComCLIP</a></p>
+
+<h3 id="研究动机-1">研究动机</h3>
+
+<p>已有工作认为，CLIP 后训练时 batch 较小，继续使用对比损失会导致灾难性遗忘，因此倾向于放弃对比损失。</p>
+
+<p>但问题真的出在 batch size 上吗？</p>
+
+<h3 id="核心发现与方法">核心发现与方法</h3>
+
+<p>研究发现，遗忘的主要原因是温度系数 τ 设置不当，而不是 batch 太小。</p>
+
+<p>只需将 τ 从 0.07 调整到 0.01，对比后训练就能反过来提升原模型的性能。</p>
+
+<p>基于这一发现，研究提出 <strong>ComCLIP</strong>：冻结文本编码器，仅训练 <strong>1 个 epoch</strong>，联合使用三项目标精修视觉编码器：</p>
+
+<ul>
+  <li><strong>小温度对比损失：</strong> 改善对比后训练的优化效果；</li>
+  <li><strong>MSE 锚定：</strong> 约束视觉特征不偏离原始 CLIP；</li>
+  <li><strong>DINOv2 关系蒸馏：</strong> 引入视觉特征之间的关系知识。</li>
+</ul>
+
+<p>训练后的视觉编码器结构和推理开销均保持不变，可以即插即用地替换原有 CLIP。</p>
+
+<h3 id="实验结果-1">实验结果</h3>
+
+<ul>
+  <li><strong>零样本分类：</strong> 与 CLIP-Refine 持平；</li>
+  <li><strong>线性探测：</strong> 显著优于 CLIP-Refine，达到 48.99 vs 42.28；</li>
+  <li><strong>多模态大模型迁移：</strong> 可直接接入 LLaVA-1.5-7B，无需重新对齐，不影响下游性能。</li>
+</ul>
+
+<p><strong>工作亮点：</strong> 仅需 1 个 epoch，通过重新设计对比损失与互补训练目标，实现 CLIP 视觉编码器的高效精修。</p>
+
+<div align="center">
+  <img src="/images/posts/2026-10-09-neurips-accepted-papers/comclip-framework.png" alt="ComCLIP 冻结文本编码器与互补训练目标框架" style="max-width: 600px; width: 100%; height: auto;" />
+  <p class="center">图2：ComCLIP 框架</p>
+</div>
+
+<h2 id="03zo-bolt失配的代价零阶强化学习中的噪声放大">03｜ZO-BOLT：失配的代价——零阶强化学习中的噪声放大</h2>
+
+<p><strong>论文标题：</strong> The Cost of Mismatch: Noise Amplification in Zeroth-Order Reinforcement Learning</p>
+
+<p><strong>作者：</strong> Lianmin Chen, Junbin Qiu, Chenxing Wei, Yao Shu, Kun He</p>
+
+<p><strong>单位：</strong> 华中科技大学、香港科技大学（广州）</p>
+
+<h3 id="研究动机-2">研究动机</h3>
+
+<p>可验证奖励的强化学习（RLVR）已成为提升大语言模型推理能力的重要后训练范式，但主流一阶优化依赖反向传播，显存开销大。</p>
+
+<p>零阶优化（ZOO）只需前向计算，可将训练显存降至接近推理的水平。</p>
+
+<p>然而，现有大模型零阶优化研究主要集中在监督微调等固定数据场景。零阶优化在 RLVR 中是否可靠，仍缺少系统研究。</p>
+
+<h3 id="核心发现">核心发现</h3>
+
+<p>零阶优化通过比较参数扰动前后的函数值差分估计梯度。</p>
+
+<p>在同策略（on-policy）强化学习中，用于评估的数据由模型自己采样，而参数一旦被扰动，差分两端就必须各自独立采样。</p>
+
+<p>这造成了数据失配（mismatched-data regime），进而引入 <strong>1/μ² 量级的噪声放大</strong>（μ 为扰动规模），严重削弱优化信号。</p>
+
+<h3 id="核心方法zo-bolt">核心方法：ZO-BOLT</h3>
+
+<p>针对上述问题，研究提出 ZO-BOLT。</p>
+
+<p>该方法将零阶优化应用于 BOLT 中与 RLVR 目标对齐的加权监督微调目标，使有限差分两端共享同一批数据，保证数据匹配（matched-data regime），从而避免失配带来的 1/μ² 噪声放大。</p>
+
+<h3 id="实验结果-2">实验结果</h3>
+
+<ul>
+  <li><strong>机制验证：</strong> 受控实验通过估计噪声方差，直接验证数据失配下的 1/μ² 方差放大，而数据匹配下没有出现这一现象。</li>
+  <li><strong>端到端验证：</strong> ZO-BOLT 和 ZO-GRPO 的数据匹配版本，均优于对应的数据失配版本。</li>
+  <li><strong>数学推理表现：</strong> ZO-BOLT 在保持显存优势的同时，实现了有效的性能提升。</li>
+</ul>
+
+<p><strong>工作亮点：</strong> 揭示零阶强化学习中的数据失配与噪声放大机制，并通过数据匹配实现更稳定、高效的大模型后训练。</p>
+
+<div align="center">
+  <img src="/images/posts/2026-10-09-neurips-accepted-papers/zo-bolt-framework.png" alt="同策略强化学习的数据失配与 ZO-BOLT 数据匹配机制对比" style="max-width: 600px; width: 100%; height: auto;" />
+  <p class="center">图3：ZO-BOLT 框架</p>
+</div>
+
+<h2 id="04tmpo轨迹匹配策略优化让扩散模型对齐既多样又高效">04｜TMPO：轨迹匹配策略优化，让扩散模型对齐既多样又高效</h2>
+
+<p><strong>论文标题：</strong> TMPO: Trajectory Matching Policy Optimization for Diverse and Efficient Diffusion Alignment</p>
+
+<p><strong>作者：</strong> Jiaming Li, Chenyu Zhu, Nanxi Yi, Youjun Bao, Li Sun, Quanying Lv, Xiang Fang, Daizong Liu, Jianjun Li, Kun He, Bowen Zhou, Zhiyuan Ma</p>
+
+<p><strong>单位：</strong> 华中科技大学、快手、南洋理工大学、武汉大学、清华大学</p>
+
+<p><strong>论文地址：</strong> <a href="https://arxiv.org/abs/2605.10983">arXiv:2605.10983</a></p>
+
+<p><strong>代码地址：</strong> <a href="https://github.com/mair-lab-hust/tmpo">mair-lab-hust/tmpo</a></p>
+
+<h3 id="研究动机-3">研究动机</h3>
+
+<p>强化学习已被广泛用于将扩散模型对齐到人类偏好等下游目标，但现有方法普遍存在奖励投机（reward hacking）：生成结果逐渐集中到少数高奖励的“套路”上，出现视觉模式崩塌（Visual Mode Collapse），多样性和质量双双下降。我们认为，问题的根源在于这些方法“只追求最大化期望奖励”的模式寻求（mode-seeking）特性——它没有约束策略在所有可接受轨迹上的概率分布。</p>
+
+<h3 id="方法">方法</h3>
+
+<p>TMPO 将对齐目标从“最大化标量期望奖励”转变为“轨迹级奖励分布匹配”：</p>
+
+<ul>
+  <li><strong>Softmax 轨迹平衡（Softmax-TB）目标：</strong> 让 K 条采样轨迹的策略概率去匹配由奖励诱导的 Boltzmann 分布，无需估计复杂的全局配分函数。理论上，该目标继承了前向 KL 散度的模式覆盖（mode-covering）性质，能在优化奖励的同时保持对各类可接受结果的覆盖。</li>
+  <li><strong>动态随机树采样（Dynamic Stochastic Tree Sampling）：</strong> 多条轨迹共享去噪前缀，只在动态调度的步数处分叉，大幅减少多轨迹训练中的冗余计算。</li>
+</ul>
+
+<h3 id="实验结果-3">实验结果</h3>
+
+<ul>
+  <li>在 FLUX.1-dev 和 SD3.5-Medium 上，覆盖人类偏好、组合生成、文字渲染等多种对齐任务；</li>
+  <li>生成多样性相比当前最优方法提升 <strong>9.1%</strong>，各项下游指标保持竞争力，取得奖励与多样性的最佳权衡；</li>
+  <li>借助动态随机树采样，单次训练迭代时间缩短近 <strong>40%</strong>。</li>
+</ul>
+
+<div align="center">
+  <img src="/images/posts/2026-10-09-neurips-accepted-papers/tmpo-framework.png" alt="TMPO 动态随机树采样与轨迹匹配策略优化框架" style="max-width: 600px; width: 100%; height: auto;" />
+  <p class="center">图4：TMPO 框架</p>
+</div>
+
+<h2 id="05videoafford从人-物交互视频中定位-3d-可供性">05｜VideoAfford：从人-物交互视频中定位 3D 可供性</h2>
+
+<p><strong>论文标题：</strong> VideoAfford: Grounding 3D Affordance from Human-Object-Interaction Videos via Multimodal Large Language Model</p>
+
+<p><strong>作者：</strong> Hanqing Wang¹, Mingyu Liu², Xiaoyu Chen¹, Chengwei Ma¹, Yiming Zhong³, Wenti Yin⁴, Yuhao Liu⁵, Zhiqing Cui¹, Jiahao Yuan¹, Lu Dai¹˒⁶, Zhiyuan Ma⁴˒†, Hui Xiong¹˒⁶˒†（† 通讯作者）</p>
+
+<p><strong>单位：</strong> ¹香港科技大学（广州） ²浙江大学 ³上海科技大学 ⁴华中科技大学 ⁵山东大学 ⁶香港科技大学</p>
+
+<p><strong>论文地址：</strong> <a href="https://arxiv.org/abs/2602.09638">arXiv:2602.09638</a></p>
+
+<p><strong>代码地址：</strong> <a href="https://github.com/HKUST-GZ-CVL/VideoAfford">HKUST-GZ-CVL/VideoAfford</a></p>
+
+<h3 id="研究动机-4">研究动机</h3>
+
+<p>机器人要“会用”物体，首先得知道物体的哪些部位可以被怎样使用，即 <strong>3D 可供性定位（3D Affordance Grounding）</strong>。</p>
+
+<p>设想观看一段“人拿起杯子喝水”的完整视频：我们不仅能看到手抓在哪里，还能理解动作的力度、轨迹，以及杯子在空间中的功能属性。</p>
+
+<p>从动态交互中理解物体的“可利用性”，正是机器人走向智能操作的关键能力。</p>
+
+<h3 id="主要贡献">主要贡献</h3>
+
+<ul>
+  <li><strong>构建大规模数据集：</strong> 提出首个大规模视频驱动的 3D 可供性数据集 VIDA。</li>
+  <li><strong>提出 VideoAfford 框架：</strong> 借助多模态大语言模型，利用视频中的动态交互信息，精准定位 3D 空间中的可供性区域。</li>
+  <li><strong>探索具身智能操作：</strong> 该工作也是团队面向交互式 VLA 操作方向的首个铺垫性工作。</li>
+</ul>
+
+<p><strong>工作亮点：</strong> 从静态物体感知走向动态交互理解，为机器人学习物体功能与智能操作提供新的研究路径。</p>
+
+<div align="center">
+  <img src="/images/posts/2026-10-09-neurips-accepted-papers/videoafford-framework.png" alt="VideoAfford 从人-物交互视频定位三维可供性区域的框架" style="max-width: 600px; width: 100%; height: auto;" />
+  <p class="center">图5：VideoAfford 框架</p>
+</div>
+
+<h2 id="结语">结语</h2>
+
+<p>以上五项工作覆盖了视觉-语言表示学习、大语言模型与生成模型的强化学习对齐，以及具身智能感知等多个方向。欢迎大家阅读论文、试用代码、交流讨论！</p>
+
+<p>关注 HCCS 中心公众号，获取更多前沿科研成果与学术动态！</p>
+
+<p>原文来源：<a href="https://mp.weixin.qq.com/s/_Dm5cbV6nkY8NfpckQhhiA">华中科大 Hopcroft 计算科学中心：HCCS 中心 5 篇论文入选 NeurIPS 2026！</a>（2026 年 10 月 9 日）</p>]]></content><author><name></name></author><category term="新闻" /><summary type="html"><![CDATA[近日，人工智能领域顶级会议 NeurIPS 2026（Conference on Neural Information Processing Systems）公布录用结果，Hopcroft 计算科学研究中心共有五篇论文被接收。这些工作沿着“表示学习 → 后训练对齐 → 具身感知”的脉络展开，涵盖视觉-语言预训练、CLIP 后训练、大语言模型零阶强化学习、扩散模型强化学习对齐，以及具身智能中的 3D 可供性感知。下面带大家快速了解这些工作。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://jhl-hust.github.io/images/posts/cover.webp" /><media:content medium="image" url="https://jhl-hust.github.io/images/posts/cover.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">中心四篇论文被CVPR及ACL 2026录用！</title><link href="https://jhl-hust.github.io/2026/05/17/cvpr-acl-accepted-papers.html" rel="alternate" type="text/html" title="中心四篇论文被CVPR及ACL 2026录用！" /><published>2026-05-17T00:00:00+00:00</published><updated>2026-05-17T00:00:00+00:00</updated><id>https://jhl-hust.github.io/2026/05/17/cvpr-acl-accepted-papers</id><content type="html" xml:base="https://jhl-hust.github.io/2026/05/17/cvpr-acl-accepted-papers.html"><![CDATA[<p>近日，计算机视觉与自然语言处理领域顶级国际会议 CVPR 2026 和 ACL 2026 论文录用结果相继揭晓，<!-- excerpt start -->华中科技大学霍普克罗夫特计算科学研究中心共有 4 篇论文被录用，其中 2 篇被 CVPR 2026 录用，2 篇被 ACL 2026 录用。<!-- excerpt end --></p>
 
 <h2 id="会议情况">会议情况</h2>
 
@@ -340,9 +555,7 @@ August 2025 data-update for “Updated science-wide author databases of standard
 
 <p>“立德先于立言，育人重于授课”，这是何琨教授一以贯之的教育信念。她坚持在平等、尊重、信任中与学生建立深厚情谊。定期与学生一对一交流，关注同学们的心理健康；根据学生的作息习惯和未来规划，进行分类指导和个性化管理；定期组织团队活动，营造温暖互助的实验室氛围。此外，她积极参与社会公益，在疫情期间主动报名志愿者分发防疫物资，获得洪山区战“疫”志愿行动志愿者纪念证书。她始终用实际行动践行着“学高为师、身正为范”的要求，是学生心中最温暖的榜样力量。</p>
 
-<p>何琨教授以她严谨的治学态度，宽阔的学术视野，出色的育人实践，捧出了一颗鲜活跳动的育人初心。她用自己的实际行动生动诠释了一名高校教师对党和人民教育事业的无悔担当，堪称新时代“师德先进个人”的杰出代表。</p>]]></content><author><name></name></author><category term="新闻" /><summary type="html"><![CDATA[Outstanding Individual in 中心执行主任何琨教授获评华中科技大学2025年“师德先进个人”称号。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://jhl-hust.github.io/images/posts/2025-09-10-teacher-ethics-award/cover.png" /><media:content medium="image" url="https://jhl-hust.github.io/images/posts/2025-09-10-teacher-ethics-award/cover.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">华中科技大学霍普克罗夫特计算科学研究中心教职招聘启事</title><link href="https://jhl-hust.github.io/2025/06/08/teacher-recruitment.html" rel="alternate" type="text/html" title="华中科技大学霍普克罗夫特计算科学研究中心教职招聘启事" /><published>2025-06-08T00:00:00+00:00</published><updated>2025-06-08T00:00:00+00:00</updated><id>https://jhl-hust.github.io/2025/06/08/teacher-recruitment</id><content type="html" xml:base="https://jhl-hust.github.io/2025/06/08/teacher-recruitment.html"><![CDATA[<h1 id="华中科技大学霍普克罗夫特计算科学研究中心教职招聘启事">华中科技大学霍普克罗夫特计算科学研究中心教职招聘启事</h1>
-
-<h2 id="中心简介--about-us">中心简介 | About Us</h2>
+<p>何琨教授以她严谨的治学态度，宽阔的学术视野，出色的育人实践，捧出了一颗鲜活跳动的育人初心。她用自己的实际行动生动诠释了一名高校教师对党和人民教育事业的无悔担当，堪称新时代“师德先进个人”的杰出代表。</p>]]></content><author><name></name></author><category term="新闻" /><summary type="html"><![CDATA[Outstanding Individual in 中心执行主任何琨教授获评华中科技大学2025年“师德先进个人”称号。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://jhl-hust.github.io/images/posts/2025-09-10-teacher-ethics-award/cover.png" /><media:content medium="image" url="https://jhl-hust.github.io/images/posts/2025-09-10-teacher-ethics-award/cover.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">华中科技大学霍普克罗夫特计算科学研究中心教职招聘启事</title><link href="https://jhl-hust.github.io/2025/06/08/teacher-recruitment.html" rel="alternate" type="text/html" title="华中科技大学霍普克罗夫特计算科学研究中心教职招聘启事" /><published>2025-06-08T00:00:00+00:00</published><updated>2025-06-08T00:00:00+00:00</updated><id>https://jhl-hust.github.io/2025/06/08/teacher-recruitment</id><content type="html" xml:base="https://jhl-hust.github.io/2025/06/08/teacher-recruitment.html"><![CDATA[<h2 id="中心简介--about-us">中心简介 | About Us</h2>
 
 <div align="center">
   <img src="/images/posts/2025-06-08-teacher-recruitment/image_1.png" style="max-width: 480px; width: 100%; height: auto;" />
@@ -438,7 +651,7 @@ AI for Science，即计算机科学、智能科学与数学、物理、化学、
   <li>聘期内研究计划（可选）</li>
 </ul>
 
-<p>如有意向，欢迎随时联系咨询，我们诚挚期待您的加入，共同探索计算机科学与人工智能的前沿！</p>]]></content><author><name></name></author><category term="通知" /><summary type="html"><![CDATA[华中科技大学霍普克罗夫特计算科学研究中心教职招聘启事]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://jhl-hust.github.io/images/posts/2025-06-08-teacher-recruitment/image_1.png" /><media:content medium="image" url="https://jhl-hust.github.io/images/posts/2025-06-08-teacher-recruitment/image_1.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">图灵奖得主John Hopcroft教授与学生代表座谈会顺利举行</title><link href="https://jhl-hust.github.io/2025/05/17/hopcroft-seminar.html" rel="alternate" type="text/html" title="图灵奖得主John Hopcroft教授与学生代表座谈会顺利举行" /><published>2025-05-17T00:00:00+00:00</published><updated>2025-05-17T00:00:00+00:00</updated><id>https://jhl-hust.github.io/2025/05/17/hopcroft-seminar</id><content type="html" xml:base="https://jhl-hust.github.io/2025/05/17/hopcroft-seminar.html"><![CDATA[<!-- excerpt start -->
+<p>如有意向，欢迎随时联系咨询，我们诚挚期待您的加入，共同探索计算机科学与人工智能的前沿！</p>]]></content><author><name></name></author><category term="通知" /><summary type="html"><![CDATA[中心简介 | About Us]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://jhl-hust.github.io/images/posts/2025-06-08-teacher-recruitment/image_1.png" /><media:content medium="image" url="https://jhl-hust.github.io/images/posts/2025-06-08-teacher-recruitment/image_1.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">图灵奖得主John Hopcroft教授与学生代表座谈会顺利举行</title><link href="https://jhl-hust.github.io/2025/05/17/hopcroft-seminar.html" rel="alternate" type="text/html" title="图灵奖得主John Hopcroft教授与学生代表座谈会顺利举行" /><published>2025-05-17T00:00:00+00:00</published><updated>2025-05-17T00:00:00+00:00</updated><id>https://jhl-hust.github.io/2025/05/17/hopcroft-seminar</id><content type="html" xml:base="https://jhl-hust.github.io/2025/05/17/hopcroft-seminar.html"><![CDATA[<!-- excerpt start -->
 <p>5月17日下午，由华中科技大学霍普克罗夫特计算科学研究中心主办的”大师面对面”师生座谈会在一号楼顺利召开。<!-- excerpt end -->图灵奖得主、康奈尔大学教授、华中科技大学名誉教授、霍普克罗夫特中心主任John Hopcroft出席活动，并与中心研究生、AI派团队成员、ACM集训队成员以及计算机学院图灵班学生代表进行了面对面的深入交流。座谈会由霍普克罗夫特中心执行主任何琨教授主持。</p>
 
 <div align="center">
@@ -488,29 +701,4 @@ AI for Science，即计算机科学、智能科学与数学、物理、化学、
 
 <p>该计划是CCF理论计算机科学专业委员会于2024年首次推出，以进一步推动理论计算机科学领域高水平创新人才培养工作，激励理论计算机领域的博士研究生潜心钻研、务实创新，表彰做出优秀成果的年轻学者。</p>
 
-<p>经形式审查、同行初评、会议终评，最终3篇论文入选2024年”CCF理论计算机科学博士学位论文激励计划”，2篇论文获得2024年”CCF理论计算机科学博士学位论文激励计划”提名。</p>]]></content><author><name></name></author><category term="新闻" /><summary type="html"><![CDATA[近日，中心20级博士郑迥之的博士论文”最大可满足性问题的局部搜索策略与算法研究”获2024年”CCF理论计算机科学博士学位论文激励计划”提名。郑迥之在博士期间发表论文20余篇，其中包括5篇一作CCF A类论文，曾获2022年SAT国际竞赛主赛道冠军，2024年MaxSAT国际竞赛非完备组冠军等成绩。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://jhl-hust.github.io/images/posts/cover.webp" /><media:content medium="image" url="https://jhl-hust.github.io/images/posts/cover.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">第十九届”挑战杯”竞赛2024年度”揭榜挂帅”专项赛特等奖</title><link href="https://jhl-hust.github.io/2024/11/24/challenge-cup-special-award.html" rel="alternate" type="text/html" title="第十九届”挑战杯”竞赛2024年度”揭榜挂帅”专项赛特等奖" /><published>2024-11-24T00:00:00+00:00</published><updated>2024-11-24T00:00:00+00:00</updated><id>https://jhl-hust.github.io/2024/11/24/challenge-cup-special-award</id><content type="html" xml:base="https://jhl-hust.github.io/2024/11/24/challenge-cup-special-award.html"><![CDATA[<!-- excerpt start -->
-<p>2024年11月，在共青团中央举办的第十九届”挑战杯”竞赛2024年度”揭榜挂帅”专项赛中，”拔萝卜的工程队”在中心副主任何琨教授、计算机学院欧阳由老师的指导下取得国家特等奖。<!-- excerpt end -->项目负责人为赖永烨，华中科技大学计算机学院22级本科生、启明AI派团队队长。团队其它成员为陈薛嘉、唐锐、郭奕辰、徐战潮、狄桓炜、赵亦安、代镇瀚、廖思明、王昕瑞。</p>
-
-<div align="center">
-  <img src="/images/posts/2024-11-24-challenge-cup-special-award/image_1.png" style="max-width: 600px; width: 100%; height: auto;" />
-</div>
-
-<p>项目参加了专项赛中的华为技术有限公司命题的”面向新质生产力的AI质检助力制造业数智化创新”比赛，比赛主要围绕印刷电路板（PCB板）的瑕疵检测展开，分为线上打榜和线下答辩两个部分。PCB板作为电子器件的关键支撑体，其瑕疵检测是赋能新质生产力的重要力量。</p>
-
-<div align="center">
-  <img src="/images/posts/2024-11-24-challenge-cup-special-award/image_2.png" style="max-width: 600px; width: 100%; height: auto;" />
-</div>
-
-<p>在这次比赛中，团队成员对现有PCB数据集进行多种数据增强，改进yolov9模型以适配瑕疵检测任务，通过迁移分析调优利用华为昇腾NPU训练模型，在鸿蒙架构上设计了一款工业质检软件，借助工业相机、华为云IOT平台、opengauss数据库搭建了一个流水线PCB瑕疵检测模型。团队在线上打榜中取得第一，结合线下答辩，最终取得国家特等奖。</p>
-
-<div align="center">
-  <img src="/images/posts/2024-11-24-challenge-cup-special-award/image_3.png" style="width: 217px; height: 420px; max-width: 100%; height: auto;" />
-</div>
-
-<div align="center">
-  <img src="/images/posts/2024-11-24-challenge-cup-special-award/image_4.png" style="max-width: 600px; width: 100%; height: auto;" />
-</div>
-
-<div align="center">
-  <img src="/images/posts/2024-11-24-challenge-cup-special-award/image_5.png" style="max-width: 600px; width: 100%; height: auto;" />
-</div>]]></content><author><name></name></author><category term="新闻" /><summary type="html"><![CDATA[2024年11月，在共青团中央举办的第十九届”挑战杯”竞赛2024年度”揭榜挂帅”专项赛中，”拔萝卜的工程队”在中心副主任何琨教授、计算机学院欧阳由老师的指导下取得国家特等奖。项目负责人为赖永烨，华中科技大学计算机学院22级本科生、启明AI派团队队长。团队其它成员为陈薛嘉、唐锐、郭奕辰、徐战潮、狄桓炜、赵亦安、代镇瀚、廖思明、王昕瑞。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://jhl-hust.github.io/images/posts/2024-11-24-challenge-cup-special-award/image_1.png" /><media:content medium="image" url="https://jhl-hust.github.io/images/posts/2024-11-24-challenge-cup-special-award/image_1.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+<p>经形式审查、同行初评、会议终评，最终3篇论文入选2024年”CCF理论计算机科学博士学位论文激励计划”，2篇论文获得2024年”CCF理论计算机科学博士学位论文激励计划”提名。</p>]]></content><author><name></name></author><category term="新闻" /><summary type="html"><![CDATA[近日，中心20级博士郑迥之的博士论文”最大可满足性问题的局部搜索策略与算法研究”获2024年”CCF理论计算机科学博士学位论文激励计划”提名。郑迥之在博士期间发表论文20余篇，其中包括5篇一作CCF A类论文，曾获2022年SAT国际竞赛主赛道冠军，2024年MaxSAT国际竞赛非完备组冠军等成绩。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://jhl-hust.github.io/images/posts/cover.webp" /><media:content medium="image" url="https://jhl-hust.github.io/images/posts/cover.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
